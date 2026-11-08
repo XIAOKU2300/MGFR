@@ -1,0 +1,201 @@
+# ---------------------------------------------------------------------------
+# MGFR — ignore rules
+#
+# The single most important rule in this file: character IP assets are NEVER
+# committed. The 祀 model ReadMe forbids redistribution (二次配布), and the
+# 小酒狐 voice weights and the LLM key are private too.
+# See docs/asset-policy.md before editing this file.
+# ---------------------------------------------------------------------------
+
+# --- Character IP: original model drop -------------------------------------
+# The unpacked model folder sits at the repo root and must never be staged.
+【明日方舟：终末地】祀_*/
+# Belt and braces: block MMD source assets anywhere in the tree.
+**/*.pmx
+**/*.pmd
+**/*.vmd
+**/*.vpd
+
+# --- Character IP: converted / derived assets ------------------------------
+/converted/
+/assets/Character/
+**/*.fbx
+**/*.blend
+**/*.blend[0-9]
+
+# Derived from 祀, so it stays out of the repo for the same reason the model
+# does. Note that ``/assets/Character/`` above does NOT cover this: gitignore
+# patterns are case-sensitive on Windows, so the lowercase, rooted rule never
+# matched ``Assets/MGFR/...``. These two explicit rules do.
+#
+# The character scene is deliberately built so that losing these files does not
+# break the project: nothing in the scene references them by GUID. The scene
+# carries only the bootstrap component, and ``SiCharacterLoader`` builds the mesh
+# from ``StreamingAssets/si`` at runtime. A fresh clone therefore opens the
+# character scene and reports "character data missing - run MGFR > Copy
+# Character Data" instead of failing to load. Regenerate with:
+#   python -I tools/pmx/convert_si.py "<祀.pmx>" H:\MGFR\converted\si
+#   Unity menu: MGFR > Copy Character Data
+/unity-client/Assets/MGFR/Generated/
+/unity-client/Assets/StreamingAssets/si/
+
+# --- Scratch: probe renders, service logs, build output ---------------------
+# batch/ holds working output rather than project content. The renders in it
+# are pictures of 祀, so they carry the same redistribution restriction as the
+# model, and they are PNGs - which nothing else in this file excludes. Without
+# this rule a single `git add -A` would stage them.
+/batch/
+
+# --- Character IP: texture sets (both folders shipped with the model) ------
+**/textures/
+**/other tex/
+# Generic texture blocks are deliberately narrow; add explicit paths if a
+# legitimate, redistributable texture is ever needed in-tree.
+
+# --- Voice: 小酒狐 weights and reference audio -----------------------------
+**/*.ckpt
+**/*.pth
+**/*.onnx
+**/*.wav
+**/*.mp3
+**/*.flac
+**/*.m4a
+
+# --- Downloaded engine models ----------------------------------------------
+# Not IP-restricted, but large and fetched on demand (Silero VAD, SenseVoice).
+/dialogue-service/models/
+
+# --- Secrets ---------------------------------------------------------------
+/dialogue-service/config.toml
+**/.env
+**/.env.*
+**/*.key
+**/secrets/
+**/credentials*.json
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# --- Unity (applies once unity-client/ holds a real project) ---------------
+/unity-client/**/[Ll]ibrary/
+/unity-client/**/[Tt]emp/
+/unity-client/**/[Oo]bj/
+/unity-client/**/[Bb]uild/
+/unity-client/**/[Bb]uilds/
+/unity-client/**/[Ll]ogs/
+/unity-client/**/[Uu]ser[Ss]ettings/
+/unity-client/**/[Mm]emoryCaptures/
+/unity-client/**/[Rr]ecordings/
+/unity-client/**/.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+/unity-client/**/[Aa]ssets/[Aa]ssetStore*/
+/unity-client/**/[Ee]xportedObj/
+/unity-client/**/[Cc]rashlytics/
+/unity-client/**/*.pidb.meta
+/unity-client/**/*.pdb.meta
+/unity-client/**/*.mdb.meta
+/unity-client/**/.utmp/
+# Packages/packages-lock.json and every .meta file ARE committed on purpose.
+# The lock file is what makes a resolved package set reproducible, and Unity
+# regenerates a missing .meta with a fresh GUID, which silently breaks every
+# reference to that asset.
+
+# --- Editors / OS ----------------------------------------------------------
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# --- Unity Hub and the editor are installed INSIDE this repo ---------------
+# Hub's install root was pointed at H:\MGFR, so the editor lives at
+# H:\MGFR\Editor and the Hub application at H:\MGFR\Unity Hub. Together that is
+# roughly 49,000 files of tooling. They are not project content and must never
+# be staged: a single `git add -A` would otherwise commit a whole Unity
+# installation. Ignoring them is the entire fix. Moving them is not necessary,
+# and it would break the install path the Hub has registered.
+/Editor/
+/Unity Hub/
+/metadata.hub.json
+/modules.json
+
+# --- Source-only publication preparation (2026-11-08) -----------------------
+# Existing tracked files and historical commits still require explicit review.
+# These rules prevent new local runtime data and build products being staged.
+/.agents/
+/.impeccable/
+/.pi/
+/work/
+/adapted-skin/
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Pp]layer/
+**/[Rr]eview[Pp]layer*/
+**/[Ss]treaming[Aa]ssets/
+**/[Dd]ata/
+**/[Mm]odels/
+**/Activations/
+**/ApplicationBackup-*/
+**/SourceBackup*/
+**/Backups*/
+**/config.toml
+**/voice.toml
+**/embedding.json
+**/*.token
+**/*.pem
+**/*.pfx
+**/*.p12
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/*.exe
+**/*.dll
+**/*.zip
+**/*.7z
+**/*.rar
+**/*.bin
+**/*.motion
+**/*.hpose
+**/*.assetbundle
+# The commercial plugin needs separate redistribution permission.
+/ZMD/Assets/Plugin/MagicaCloth2/
+/ZMD/Assets/Plugin/MagicaCloth2.meta
+
+# Commercial editor tooling is not distributed with the source snapshot.
+**/[Aa]ssets/[Pp]lugin/[Mm]agica[Cc]loth2/
+**/[Aa]ssets/[Pp]lugin/[Mm]agica[Cc]loth2.meta
+**/[Aa]ssets/[Pp]lugin/[Aa]mplify[Ss]hader[Ee]ditor/
+**/[Aa]ssets/[Pp]lugin/[Aa]mplify[Ss]hader[Ee]ditor.meta

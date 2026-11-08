@@ -1,0 +1,37 @@
+# Normalise text to LF in the repo; Windows-only scripts stay CRLF.
+* text=auto eol=lf
+
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Explicitly text
+*.md   text
+*.py   text
+*.toml text
+*.json text
+*.yml  text
+*.yaml text
+*.txt  text
+
+# Explicitly binary (also gitignored — this is a second line of defence
+# against an accidental `git add -f`)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.tga  binary
+*.wav  binary
+*.mp3  binary
+*.flac binary
+*.pmx  binary
+*.pmd  binary
+*.fbx  binary
+*.blend binary
+*.ckpt binary
+*.pth  binary
+*.onnx binary
+*.dll  binary
+*.exe  binary
+
+# Keep generated summaries out of diffs and language stats
+docs/environment.md linguist-documentation

@@ -1,0 +1,934 @@
+{
+  "poses": [
+    {
+      "name": "neutral_relaxed",
+      "emotion": "neutral",
+      "label": "neutral / relaxed",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "にこり",
+          "weight": 0.06
+        },
+        {
+          "name": "口角上げ",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "name": "neutral_attentive",
+      "emotion": "neutral",
+      "label": "neutral / attentive",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "真面目",
+          "weight": 0.08
+        },
+        {
+          "name": "上",
+          "weight": 0.03
+        }
+      ]
+    },
+    {
+      "name": "neutral_calm",
+      "emotion": "neutral",
+      "label": "neutral / calm",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "なごみ",
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "name": "happy_soft",
+      "emotion": "happy",
+      "label": "happy / soft",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "にこり",
+          "weight": 0.4
+        },
+        {
+          "name": "口角上げ",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "name": "happy_smile",
+      "emotion": "happy",
+      "label": "happy / smile",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "にこり",
+          "weight": 0.5
+        },
+        {
+          "name": "にっこり",
+          "weight": 0.4
+        },
+        {
+          "name": "笑い",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "name": "happy_bright",
+      "emotion": "happy",
+      "label": "happy / bright",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "にこり",
+          "weight": 0.6
+        },
+        {
+          "name": "笑い",
+          "weight": 0.45
+        },
+        {
+          "name": "口角上げ",
+          "weight": 0.35
+        }
+      ]
+    },
+    {
+      "name": "sad_soft",
+      "emotion": "sad",
+      "label": "sad / soft",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.5
+        },
+        {
+          "name": "口角下げ",
+          "weight": 0.35
+        },
+        {
+          "name": "下",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "name": "sad_downcast",
+      "emotion": "sad",
+      "label": "sad / downcast",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.7
+        },
+        {
+          "name": "じと目",
+          "weight": 0.25
+        },
+        {
+          "name": "口角下げ",
+          "weight": 0.5
+        }
+      ]
+    },
+    {
+      "name": "sad_held_back",
+      "emotion": "sad",
+      "label": "sad / held_back",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.4
+        },
+        {
+          "name": "ハイライト消",
+          "weight": 0.25
+        },
+        {
+          "name": "口角下げ",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "name": "angry_restrained",
+      "emotion": "angry",
+      "label": "angry / restrained",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "怒り",
+          "weight": 0.45
+        },
+        {
+          "name": "ｷﾘｯ",
+          "weight": 0.15
+        },
+        {
+          "name": "口角下げ",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "name": "angry_firm",
+      "emotion": "angry",
+      "label": "angry / firm",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "怒り",
+          "weight": 0.65
+        },
+        {
+          "name": "真面目",
+          "weight": 0.1
+        },
+        {
+          "name": "じと目",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "name": "angry_pout",
+      "emotion": "angry",
+      "label": "angry / pout",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "怒り",
+          "weight": 0.5
+        },
+        {
+          "name": "∧",
+          "weight": 0.25
+        },
+        {
+          "name": "口横狭め",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "name": "surprised_attentive",
+      "emotion": "surprised",
+      "label": "surprised / attentive",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "びっくり",
+          "weight": 0.3
+        },
+        {
+          "name": "上",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "name": "surprised_wide",
+      "emotion": "surprised",
+      "label": "surprised / wide",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "びっくり",
+          "weight": 0.6
+        },
+        {
+          "name": "瞳小",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "name": "surprised_mild",
+      "emotion": "surprised",
+      "label": "surprised / mild",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "びっくり",
+          "weight": 0.4
+        },
+        {
+          "name": "困る",
+          "weight": 0.15
+        },
+        {
+          "name": "口横広げ",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "name": "shy_soft",
+      "emotion": "shy",
+      "label": "shy / soft",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "にこり",
+          "weight": 0.25
+        },
+        {
+          "name": "困る",
+          "weight": 0.2
+        },
+        {
+          "name": "にやり",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "name": "shy_hesitant",
+      "emotion": "shy",
+      "label": "shy / hesitant",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "じと目",
+          "weight": 0.15
+        },
+        {
+          "name": "困る",
+          "weight": 0.25
+        },
+        {
+          "name": "口角上げ",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "name": "shy_smile",
+      "emotion": "shy",
+      "label": "shy / smile",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "笑い",
+          "weight": 0.15
+        },
+        {
+          "name": "にこり",
+          "weight": 0.25
+        },
+        {
+          "name": "口横狭め",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "name": "thinking_focused",
+      "emotion": "thinking",
+      "label": "thinking / focused",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "真面目",
+          "weight": 0.35
+        },
+        {
+          "name": "じと目",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "name": "thinking_uncertain",
+      "emotion": "thinking",
+      "label": "thinking / uncertain",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.25
+        },
+        {
+          "name": "下",
+          "weight": 0.1
+        },
+        {
+          "name": "∧",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "name": "thinking_considering",
+      "emotion": "thinking",
+      "label": "thinking / considering",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "真面目",
+          "weight": 0.2
+        },
+        {
+          "name": "ｷﾘｯ",
+          "weight": 0.15
+        },
+        {
+          "name": "口横狭め",
+          "weight": 0.1
+        }
+      ]
+    },
+    {
+      "name": "affection_soft",
+      "emotion": "affection",
+      "label": "affection / soft",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "にこり",
+          "weight": 0.35
+        },
+        {
+          "name": "なごみ",
+          "weight": 0.35
+        },
+        {
+          "name": "口角上げ",
+          "weight": 0.25
+        }
+      ]
+    },
+    {
+      "name": "affection_warm",
+      "emotion": "affection",
+      "label": "affection / warm",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "笑い",
+          "weight": 0.3
+        },
+        {
+          "name": "にこり",
+          "weight": 0.35
+        },
+        {
+          "name": "にっこり",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "name": "affection_gentle",
+      "emotion": "affection",
+      "label": "affection / gentle",
+      "source_kind": "existing_main_model_blendshape_composition",
+      "weights": [
+        {
+          "name": "じと目",
+          "weight": 0.1
+        },
+        {
+          "name": "にこり",
+          "weight": 0.35
+        },
+        {
+          "name": "にやり",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "name": "neutral_relax_story",
+      "emotion": "neutral",
+      "label": "neutral / relaxed story",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_relaxa",
+        "data_facialmorph_emotion_confidencea"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "なごみ",
+          "weight": 0.1
+        },
+        {
+          "name": "真面目",
+          "weight": 0.035
+        }
+      ]
+    },
+    {
+      "name": "neutral_easy_content",
+      "emotion": "neutral",
+      "label": "neutral / easy content",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_relaxa"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "なごみ",
+          "weight": 0.14
+        },
+        {
+          "name": "にこり",
+          "weight": 0.07
+        },
+        {
+          "name": "口角上げ",
+          "weight": 0.04
+        }
+      ]
+    },
+    {
+      "name": "neutral_soft_attention",
+      "emotion": "neutral",
+      "label": "neutral / soft attention",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_relaxa",
+        "data_facialmorph_emotion_confidencea"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "真面目",
+          "weight": 0.06
+        },
+        {
+          "name": "なごみ",
+          "weight": 0.07
+        }
+      ]
+    },
+    {
+      "name": "happy_headpat_received",
+      "emotion": "happy",
+      "label": "happy / headpat received",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_favoura",
+        "data_facialmorph_emotion_happys"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "にこり",
+          "weight": 0.17
+        },
+        {
+          "name": "なごみ",
+          "weight": 0.09
+        },
+        {
+          "name": "口角上げ",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "name": "happy_quiet_pleased",
+      "emotion": "happy",
+      "label": "happy / quiet pleased",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_favoura",
+        "data_facialmorph_emotion_relaxa"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "にこり",
+          "weight": 0.12
+        },
+        {
+          "name": "なごみ",
+          "weight": 0.1
+        },
+        {
+          "name": "笑い",
+          "weight": 0.035
+        }
+      ]
+    },
+    {
+      "name": "happy_gentle_smile",
+      "emotion": "happy",
+      "label": "happy / gentle smile",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_happys",
+        "data_facialmorph_emotion_favoura"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "にこり",
+          "weight": 0.2
+        },
+        {
+          "name": "口角上げ",
+          "weight": 0.07
+        }
+      ]
+    },
+    {
+      "name": "shy_headpat",
+      "emotion": "shy",
+      "label": "shy / headpat",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_tsunderea",
+        "data_facialmorph_emotion_shya"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.13
+        },
+        {
+          "name": "にこり",
+          "weight": 0.1
+        },
+        {
+          "name": "口角上げ",
+          "weight": 0.035
+        }
+      ]
+    },
+    {
+      "name": "shy_bashful_smile",
+      "emotion": "shy",
+      "label": "shy / bashful smile",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_tsunderea",
+        "data_facialmorph_emotion_shya"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.09
+        },
+        {
+          "name": "にこり",
+          "weight": 0.14
+        },
+        {
+          "name": "口角上げ",
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "name": "shy_restrained",
+      "emotion": "shy",
+      "label": "shy / restrained",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_tsunderea",
+        "data_facialmorph_emotion_shya"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.14
+        },
+        {
+          "name": "なごみ",
+          "weight": 0.06
+        },
+        {
+          "name": "にやり",
+          "weight": 0.025
+        }
+      ]
+    },
+    {
+      "name": "thinking_puzzle_soft",
+      "emotion": "thinking",
+      "label": "thinking / puzzled",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_puzzlea"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.12
+        },
+        {
+          "name": "真面目",
+          "weight": 0.05
+        }
+      ]
+    },
+    {
+      "name": "thinking_considering_gently",
+      "emotion": "thinking",
+      "label": "thinking / considering",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_puzzlea",
+        "data_facialmorph_emotion_confidencea"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "真面目",
+          "weight": 0.11
+        },
+        {
+          "name": "困る",
+          "weight": 0.06
+        }
+      ]
+    },
+    {
+      "name": "thinking_unsure",
+      "emotion": "thinking",
+      "label": "thinking / unsure",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_puzzlea",
+        "data_facialmorph_emotion_worrieda"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.14
+        },
+        {
+          "name": "なごみ",
+          "weight": 0.035
+        }
+      ]
+    },
+    {
+      "name": "sad_worried_soft",
+      "emotion": "sad",
+      "label": "sad / gently worried",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_worrieda"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.16
+        },
+        {
+          "name": "口角下げ",
+          "weight": 0.045
+        }
+      ]
+    },
+    {
+      "name": "sad_concerned_listening",
+      "emotion": "sad",
+      "label": "sad / concerned",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_worrieda",
+        "data_facialmorph_emotion_afraids"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.13
+        },
+        {
+          "name": "真面目",
+          "weight": 0.045
+        },
+        {
+          "name": "口角下げ",
+          "weight": 0.035
+        }
+      ]
+    },
+    {
+      "name": "sad_small_uncertainty",
+      "emotion": "sad",
+      "label": "sad / small uncertainty",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_afraids",
+        "data_facialmorph_emotion_worrieda"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "困る",
+          "weight": 0.12
+        },
+        {
+          "name": "びっくり",
+          "weight": 0.045
+        }
+      ]
+    },
+    {
+      "name": "surprised_mild_notice",
+      "emotion": "surprised",
+      "label": "surprised / mild notice",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_afraids",
+        "data_facialmorph_emotion_surprisedsa"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "びっくり",
+          "weight": 0.11
+        },
+        {
+          "name": "困る",
+          "weight": 0.045
+        }
+      ]
+    },
+    {
+      "name": "surprised_warmly_curious",
+      "emotion": "surprised",
+      "label": "surprised / warmly curious",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_afraidl",
+        "data_facialmorph_emotion_surprisedsa"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "びっくり",
+          "weight": 0.15
+        },
+        {
+          "name": "なごみ",
+          "weight": 0.035
+        }
+      ]
+    },
+    {
+      "name": "surprised_soft_question",
+      "emotion": "surprised",
+      "label": "surprised / soft question",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_afraids",
+        "data_facialmorph_emotion_surprisedsa",
+        "data_facialmorph_emotion_puzzlea"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "びっくり",
+          "weight": 0.08
+        },
+        {
+          "name": "困る",
+          "weight": 0.07
+        },
+        {
+          "name": "真面目",
+          "weight": 0.025
+        }
+      ]
+    },
+    {
+      "name": "affection_relaxed_nearby",
+      "emotion": "affection",
+      "label": "affection / relaxed nearby",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_relaxa",
+        "data_facialmorph_emotion_favoura"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "なごみ",
+          "weight": 0.13
+        },
+        {
+          "name": "にこり",
+          "weight": 0.11
+        },
+        {
+          "name": "口角上げ",
+          "weight": 0.035
+        }
+      ]
+    },
+    {
+      "name": "affection_warm_response",
+      "emotion": "affection",
+      "label": "affection / warm response",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_favoura",
+        "data_facialmorph_emotion_happys"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "にこり",
+          "weight": 0.16
+        },
+        {
+          "name": "なごみ",
+          "weight": 0.09
+        }
+      ]
+    },
+    {
+      "name": "affection_trusting",
+      "emotion": "affection",
+      "label": "affection / trusting",
+      "source_kind": "native_preset_compatibility_projection",
+      "source_native_presets": [
+        "data_facialmorph_emotion_relaxa",
+        "data_facialmorph_emotion_confidencea"
+      ],
+      "projection_note": "手工温和投影；仅使用两套skin共同支持的当前PMX形态名，不直接执行原生97脸骨姿势。",
+      "weights": [
+        {
+          "name": "なごみ",
+          "weight": 0.12
+        },
+        {
+          "name": "真面目",
+          "weight": 0.04
+        },
+        {
+          "name": "にこり",
+          "weight": 0.08
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Main project PMX model has 40 authored morphs. These are 24 explicit subtle compositions, not 24 newly extracted native game presets. Audio vowels and blink are owned by the existing controller."
+  ]
+}

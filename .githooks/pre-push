@@ -1,0 +1,10 @@
+#!/bin/sh
+# Keep the actual private approval outside version control.
+if [ -x dialogue-service/.venv/Scripts/python.exe ]; then
+    exec dialogue-service/.venv/Scripts/python.exe tools/repository/check_publish_approval.py "$@"
+fi
+if command -v python >/dev/null 2>&1; then
+    exec python tools/repository/check_publish_approval.py "$@"
+fi
+echo "Upload blocked: Python is required for the MGFR approval check." >&2
+exit 1

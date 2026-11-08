@@ -1,0 +1,10 @@
+# Model-free protocol development. No credentials, models or external services.
+[server]
+host = "127.0.0.1"
+port = 8765
+
+[engines]
+vad = "stub"
+asr = "stub"
+llm = "stub"
+tts = "stub"

@@ -1,0 +1,61 @@
+{
+  "status": "prepared; awaiting explicit overwrite approval",
+  "items": [
+    {
+      "group": "launcher",
+      "target": "H:\\MGFR\\启动MGFR.cmd",
+      "candidate": "H:\\MGFR\\NativeMotionAdapt-20261020\\Activation\\启动MGFR.cmd.proposed",
+      "backup": "H:\\MGFR\\NativeMotionAdapt-20261020\\Activation\\Backups\\启动MGFR.cmd",
+      "beforeSha256": "de74653ee70ce89b35001c02e2246febdd0cc949e501ca6a600875278b772a84",
+      "candidateSha256": "79bf0f33e879ed144107223add4dc16a6f9c475f93663f3e71fe286e94052652"
+    },
+    {
+      "group": "navigation",
+      "target": "H:\\MGFR\\项目入口说明.md",
+      "candidate": "H:\\MGFR\\NativeMotionAdapt-20261020\\Activation\\项目入口说明.md.proposed",
+      "backup": "H:\\MGFR\\NativeMotionAdapt-20261020\\Activation\\Backups\\项目入口说明.md",
+      "beforeSha256": "7b405c245a832557efffad5a19909c54850810cc88878345d04a9d5aac7c46e6",
+      "candidateSha256": "68480e91ffbb5c169a215a6a7d04e37e77936e3084851e9f55d560ee594b720d"
+    },
+    {
+      "group": "tests",
+      "target": "H:\\MGFR\\测试入口\\01-动作连续性.cmd",
+      "candidate": "H:\\MGFR\\NativeMotionAdapt-20261020\\测试入口\\01-动作连续性.cmd",
+      "backup": "H:\\MGFR\\NativeMotionAdapt-20261020\\Activation\\Backups\\测试入口\\01-动作连续性.cmd",
+      "beforeSha256": "b2929d914020d2536219855e7356ae65823496805816b6cac26e216575b10f3a",
+      "candidateSha256": "f33a92bcb3a676c8f43443c57009242e3bb454b071a82dfc891e1c391c6c007b"
+    },
+    {
+      "group": "tests",
+      "target": "H:\\MGFR\\测试入口\\02-全部可用动作.cmd",
+      "candidate": "H:\\MGFR\\NativeMotionAdapt-20261020\\测试入口\\02-全部可用动作.cmd",
+      "backup": "H:\\MGFR\\NativeMotionAdapt-20261020\\Activation\\Backups\\测试入口\\02-全部可用动作.cmd",
+      "beforeSha256": "7f49be4a4a3e1c5e1368a8b992dadd9b92a75a23cf3b0d62515115fedc213ad8",
+      "candidateSha256": "c36dcb420b0091b4449890eb1d63c92ab99a6219f903676a34add060b2caf333"
+    },
+    {
+      "group": "tests",
+      "target": "H:\\MGFR\\测试入口\\03-语音与LLM动作联调.cmd",
+      "candidate": "H:\\MGFR\\NativeMotionAdapt-20261020\\测试入口\\03-语音与LLM动作联调.cmd",
+      "backup": "H:\\MGFR\\NativeMotionAdapt-20261020\\Activation\\Backups\\测试入口\\03-语音与LLM动作联调.cmd",
+      "beforeSha256": "64f1f876f2af57564ed364ccf4d8db5fbbb72f0f0c24c560c3f1d1a6173200d9",
+      "candidateSha256": "fa1905ac6cb5fa6553736553b7a69d85c7f310ed15e50e7f36f39a3acc89586a"
+    },
+    {
+      "group": "tests",
+      "target": "H:\\MGFR\\测试入口\\04-原生动作展示.cmd",
+      "candidate": "H:\\MGFR\\NativeMotionAdapt-20261020\\测试入口\\04-原生动作展示.cmd",
+      "backup": "H:\\MGFR\\NativeMotionAdapt-20261020\\Activation\\Backups\\测试入口\\04-原生动作展示.cmd",
+      "beforeSha256": "287f723bf5695b617cb586da754427e8ea3a73159e4edd1e0bcad1eab1402849",
+      "candidateSha256": "e0a82f68dc907bdd555f8d396f5f1c2bcaba3b672b3d0ee28ca54715d329d7d9"
+    },
+    {
+      "group": "tests",
+      "target": "H:\\MGFR\\测试入口\\说明.md",
+      "candidate": "H:\\MGFR\\NativeMotionAdapt-20261020\\测试入口\\说明.md",
+      "backup": "H:\\MGFR\\NativeMotionAdapt-20261020\\Activation\\Backups\\测试入口\\说明.md",
+      "beforeSha256": "99aaa6e47302ee991e5a5471bb53ee9cd29590906f14f2b3f84ac6e59abc6ccd",
+      "candidateSha256": "9160e199b0e82e3d49304965baa0ca741d37f61b8752d236004e53a6d41c3259"
+    }
+  ]
+}

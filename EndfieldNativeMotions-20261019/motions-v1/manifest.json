@@ -1,0 +1,200 @@
+{
+  "format": "ENFMOT1",
+  "notes": [
+    "Native source rig, not MGFR.",
+    "Custom foot/toe axes not yet applied in v1.",
+    "Generic channels from other character rigs are listed as unmatched."
+  ],
+  "clips": [
+    {
+      "name": "A_actor_jsspsi_dialog_single_wave",
+      "label": "Wave",
+      "file": "A_actor_jsspsi_dialog_single_wave.motion",
+      "frames": 251,
+      "fps": 60,
+      "duration": 4.166666666666667,
+      "unmatched_transform_paths": [],
+      "loop": true,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\clips\\A_actor_jsspsi_dialog_single_wave_b133d7ee13db.json"
+    },
+    {
+      "name": "A_actor_jsspsi_dialog_state_idle_loop",
+      "label": "Stand idle",
+      "file": "A_actor_jsspsi_dialog_state_idle_loop.motion",
+      "frames": 121,
+      "fps": 60,
+      "duration": 2.0,
+      "unmatched_transform_paths": [],
+      "loop": true,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\clips\\A_actor_jsspsi_dialog_state_idle_loop_080595ecfc4f.json"
+    },
+    {
+      "name": "A_actor_jsspsi_dialog_virtual_single_walk_m",
+      "label": "Walk and settle",
+      "file": "A_actor_jsspsi_dialog_virtual_single_walk_m.motion",
+      "frames": 218,
+      "fps": 60,
+      "duration": 3.6166666666666667,
+      "unmatched_transform_paths": [],
+      "loop": false,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\clips\\A_actor_jsspsi_dialog_virtual_single_walk_m_f7eba4807fcd.json"
+    },
+    {
+      "name": "A_actor_girl_idle_loop",
+      "label": "Base idle",
+      "file": "A_actor_girl_idle_loop.motion",
+      "frames": 121,
+      "fps": 60,
+      "duration": 2.0,
+      "unmatched_transform_paths": [
+        3018787303,
+        2233450318,
+        4208798731,
+        1329254353,
+        1029705220,
+        4190590293,
+        4168978102,
+        1288129469,
+        3458102721,
+        2334645030,
+        517822828,
+        343872963
+      ],
+      "loop": true,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\controller-linked\\clips\\A_actor_girl_idle_loop_f20e966795e2.json"
+    },
+    {
+      "name": "A_actor_girl_walk_loop",
+      "label": "Base walk",
+      "file": "A_actor_girl_walk_loop.motion",
+      "frames": 65,
+      "fps": 60,
+      "duration": 1.0666666666666667,
+      "unmatched_transform_paths": [
+        3018787303,
+        2233450318,
+        4208798731,
+        1329254353,
+        1029705220,
+        4190590293,
+        4168978102,
+        1288129469,
+        3458102721,
+        2334645030,
+        517822828,
+        343872963
+      ],
+      "loop": true,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\controller-linked\\clips\\A_actor_girl_walk_loop_c9d3266245a9.json"
+    },
+    {
+      "name": "A_actor_jsspsi_dialog_single_play",
+      "label": "Play",
+      "file": "A_actor_jsspsi_dialog_single_play.motion",
+      "frames": 996,
+      "fps": 60,
+      "duration": 16.583333333333332,
+      "unmatched_transform_paths": [],
+      "loop": false,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\clips\\A_actor_jsspsi_dialog_single_play_30f1a1cd7a56.json"
+    },
+    {
+      "name": "A_actor_jsspsi_dialog_single_tsundere",
+      "label": "Tsundere",
+      "file": "A_actor_jsspsi_dialog_single_tsundere.motion",
+      "frames": 215,
+      "fps": 60,
+      "duration": 3.566666666666667,
+      "unmatched_transform_paths": [],
+      "loop": false,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\clips\\A_actor_jsspsi_dialog_single_tsundere_1bc20ab39870.json"
+    },
+    {
+      "name": "A_actor_jsspsi_dialog_virtual_state_scratchhead_loop",
+      "label": "Scratch head",
+      "file": "A_actor_jsspsi_dialog_virtual_state_scratchhead_loop.motion",
+      "frames": 81,
+      "fps": 60,
+      "duration": 1.3333333333333333,
+      "unmatched_transform_paths": [],
+      "loop": true,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\clips\\A_actor_jsspsi_dialog_virtual_state_scratchhead_loop_7f2b1a5121e1.json"
+    },
+    {
+      "name": "A_actor_jsspsi_interact_camera_01",
+      "label": "Camera pose",
+      "file": "A_actor_jsspsi_interact_camera_01.motion",
+      "frames": 351,
+      "fps": 60,
+      "duration": 5.833333333333333,
+      "unmatched_transform_paths": [],
+      "loop": true,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\clips\\A_actor_jsspsi_interact_camera_01_84511f02af3d.json"
+    },
+    {
+      "name": "A_actor_jsspsi_interact_receive_gift",
+      "label": "Receive gift",
+      "file": "A_actor_jsspsi_interact_receive_gift.motion",
+      "frames": 461,
+      "fps": 60,
+      "duration": 7.666666666666667,
+      "unmatched_transform_paths": [],
+      "loop": false,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\clips\\A_actor_jsspsi_interact_receive_gift_ab43cf81c4ac.json"
+    },
+    {
+      "name": "A_actor_jsspsi_relax_loop",
+      "label": "Relaxed idle",
+      "file": "A_actor_jsspsi_relax_loop.motion",
+      "frames": 181,
+      "fps": 60,
+      "duration": 3.0,
+      "unmatched_transform_paths": [],
+      "loop": true,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\controller-linked\\clips\\A_actor_jsspsi_relax_loop_fe39972d3d62.json"
+    },
+    {
+      "name": "A_actor_jsspsi_relax_sp_01",
+      "label": "Special idle 1",
+      "file": "A_actor_jsspsi_relax_sp_01.motion",
+      "frames": 682,
+      "fps": 60,
+      "duration": 11.35,
+      "unmatched_transform_paths": [],
+      "loop": false,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\controller-linked\\clips\\A_actor_jsspsi_relax_sp_01_c5f0840f43c2.json"
+    },
+    {
+      "name": "A_actor_jsspsi_relax_sp_02",
+      "label": "Special idle 2",
+      "file": "A_actor_jsspsi_relax_sp_02.motion",
+      "frames": 956,
+      "fps": 60,
+      "duration": 15.916666666666666,
+      "unmatched_transform_paths": [],
+      "loop": false,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\controller-linked\\clips\\A_actor_jsspsi_relax_sp_02_1040530b82f4.json"
+    },
+    {
+      "name": "A_actor_jsspsi_walk_loop_sp_01",
+      "label": "Character walk variation",
+      "file": "A_actor_jsspsi_walk_loop_sp_01.motion",
+      "frames": 464,
+      "fps": 60,
+      "duration": 7.716666666666667,
+      "unmatched_transform_paths": [],
+      "loop": true,
+      "source_clip": "H:\\MGFR\\SiMotions-20261019\\controller-linked\\clips\\A_actor_jsspsi_walk_loop_sp_01_ab7022b0efb5.json"
+    }
+  ],
+  "errors": [
+    {
+      "name": "A_actor_jsspsi_dialog_virtual_single_idle_nod",
+      "error": "Transform path orders differ"
+    },
+    {
+      "name": "A_actor_jsspsi_dialog_virtual_single_idle_shake",
+      "error": "Transform path orders differ"
+    }
+  ]
+}

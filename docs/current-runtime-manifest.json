@@ -1,0 +1,1956 @@
+{
+  "recordedAt": "2026-10-21T08:44:17.003424+08:00",
+  "scope": "Source backup with local resource fingerprints, not a runnable asset distribution. No private configuration values included.",
+  "entryChain": [
+    {
+      "path": "启动MGFR.cmd",
+      "bytes": 154,
+      "sha256": "0a91e2f9ee2b8ded533e1e58d391df86e05f29323eb9cb288848104522b9ca34"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/launch_final.py",
+      "bytes": 6316,
+      "sha256": "a07986f90e7a9d44052ad0dd555120e837d99681a4ba312634ef3d1628700b02"
+    },
+    {
+      "path": "DialogueMemory-20261020/launch_memory.py",
+      "bytes": 11891,
+      "sha256": "787204b87b01b19ef438791e385c7a243498db608e6f614efb6a10f921ed3314"
+    }
+  ],
+  "activePlayer": {
+    "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR.exe",
+    "bytes": 667136,
+    "sha256": "b7cca8b82003185f22644d0ee1c23b3640de1b996802d4f5d0501e287011afa6"
+  },
+  "activeModule": {
+    "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/Managed/MGFR.StructuredVoiceFinal.dll",
+    "bytes": 142848,
+    "sha256": "5e7e0279a5e60c909e10bd19e4b50a36e36ae28975a9f7964521cafecbcea97d"
+  },
+  "canonicalSources": [
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/ClothScaleReview.cs",
+      "bytes": 4173,
+      "sha256": "c7523b02581f3f5c78cc81c6ce00ba43bee865213c3811dd493c4fe9486dde9f"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/GesturePanel/GesturePanelReview.cs",
+      "bytes": 15852,
+      "sha256": "e1bede5c9cdfbf3899a54aecd8f04cca5464be9624f6e7347cbcc7baf840735e"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/GesturePanel/GesturePanelRuntime.cs",
+      "bytes": 16647,
+      "sha256": "c9a3b70f6e5d64c9ef2ae00a00d41349ebb4941cc2b466205d0f7c91742cacfa"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/GesturePanel/GesturePanelVisual.cs",
+      "bytes": 11829,
+      "sha256": "a45ab411170b3836dca94198d10aa89e0ffa70d59de0b5050240875b13a4de7b"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/GesturePanel/HandMenuIntent.cs",
+      "bytes": 6806,
+      "sha256": "28d6f6badfe2a0d9c8bfe534bf343a2a3e3211aae36bf1488719e1c079f6776a"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/MainNetworkReview.cs",
+      "bytes": 2814,
+      "sha256": "29c114a2f0e5cd59cd9a64c314ae73e7c02657981a3b1e2796c27108e082a649"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/MgfrContextReview.cs",
+      "bytes": 2639,
+      "sha256": "3c7f32da64be8205b2a87310c961673a605f38b44b814e811329ee42f3dc6604"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/MgfrInteractionContext.cs",
+      "bytes": 10744,
+      "sha256": "c90fa4bca6685929b8dce2858ca54e1088476a01d7b0333a93b9f24edb8cc215"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/MrClothCoverageRepair.cs",
+      "bytes": 2488,
+      "sha256": "fff42e9a22e766dad1b58b18d934d51a1931926109e8b7707dff76144476ec4e"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/NativeAcceptance-main.cs",
+      "bytes": 8252,
+      "sha256": "fe70c842a88f3a8f5eef2f21534e627628bce61c9251fc7b4045e2af7f92b1ef"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/NativeAvatarActions-main.cs",
+      "bytes": 14048,
+      "sha256": "63d70a26d6aa124071461e39bc2ecd920a7c409e28e4aef10ed2f0cfeeee4ab9"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/NativeCatalogReview-current.cs",
+      "bytes": 4597,
+      "sha256": "f27db66f028e0e71113f615ae635ba0607aae2124c2260a8d9ada6f449ecda2f"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/NativeClothCoordinator-production.cs",
+      "bytes": 10277,
+      "sha256": "fee368e6d9adbe06f7666460fe1f0e958a1fa9a40546023a49274423353bf1ff"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/RenderRepairReview.cs",
+      "bytes": 5693,
+      "sha256": "8b771642a2d7dcfef2b1ce10b8419b9d81e6092a6d761fc05b25fb96072b767a"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/StereoMaterialGpuReview.cs",
+      "bytes": 6358,
+      "sha256": "86afae3a793544a7d2b2798144ec1ddef8f02c3795d6860e7cdf89f45b041f60"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/SubtitleChromaRepair.cs",
+      "bytes": 3469,
+      "sha256": "3131e01b7961508185da4c0cd62f2e6c76ae1d47bf82c512dbac9598c8775973"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Source/XrSessionRecovery.cs",
+      "bytes": 9973,
+      "sha256": "48f2deab9cf95854ece8713f52c7d7ba0ea48315c63f671196e9fe5439d92a2a"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Voice/avatar_json_v2.py",
+      "bytes": 12859,
+      "sha256": "da2d1fdb1c6245c99cd5c5cf02a046a0ea49bb340b6ebf49eba32ea92ad8bb9c"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Voice/avatar_pipeline_v2.py",
+      "bytes": 10738,
+      "sha256": "efc9cf614a497153368afb834c24b56c1f82e48f83807e7803fc7bd7470209e8"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Voice/install_voice_v2.py",
+      "bytes": 1121,
+      "sha256": "c8e7896c77f694e09640dee86598b657a51e06eba3c3e428f465274dd764a28e"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Voice/install_voice_v3.py",
+      "bytes": 1719,
+      "sha256": "917c179277cac0dd8a74dbd3e9ddb04f24bf0878038c83d4a22b0837e9d4eb0a"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Voice/install_voice_v4.py",
+      "bytes": 1454,
+      "sha256": "d212c966389afb512d6714ebb47772ba5153639a637d0c04e2801a67e839e9ba"
+    },
+    {
+      "path": "DialogueMemory-20261020/src_v3/interaction_context.py",
+      "bytes": 12358,
+      "sha256": "2e6d8a4ffc184c49011909c4df1d89a59f9f0a6d29d1849d5257db4b572982be"
+    },
+    {
+      "path": "DialogueMemory-20261020/src_v3/lore_speech.py",
+      "bytes": 877,
+      "sha256": "67ae000db58ba29df565f68094d1a8f752327e694e3fc97fb464d130b537034d"
+    },
+    {
+      "path": "DialogueMemory-20261020/src_v3/mgfr_memory/__init__.py",
+      "bytes": 109,
+      "sha256": "f1f4f4c37b163f9d9ba2f6732a8a96cb60c1bd7d91e2ead04abdfdd17ee89415"
+    },
+    {
+      "path": "DialogueMemory-20261020/src_v3/mgfr_memory/providers.py",
+      "bytes": 3849,
+      "sha256": "5dee65717f7745701b79c2c91151c91b2b30d31908e10f1b0e1f615d6b915e97"
+    },
+    {
+      "path": "DialogueMemory-20261020/src_v3/mgfr_memory/runtime.py",
+      "bytes": 10759,
+      "sha256": "83d1bb678e5de53fc037009730b4f7367712cd2dcb56375bdd24380e73daecd2"
+    },
+    {
+      "path": "DialogueMemory-20261020/src_v3/mgfr_memory/service.py",
+      "bytes": 3504,
+      "sha256": "2015b34fa3b81e3afff2cd0cf7173902a79bf4eafb20652c9b7e19176a9c49e4"
+    },
+    {
+      "path": "DialogueMemory-20261020/src_v3/voice_memory.py",
+      "bytes": 11341,
+      "sha256": "11178417d75887208b5079a5dfd2c8b7d9f675af80bea62224dceedd1d80635e"
+    }
+  ],
+  "localNativeMotions": [
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_girl_idle_loop.motion",
+      "bytes": 2884660,
+      "sha256": "70b16fb1f826fd6be04c54e292d7710e2506b61dd0dffc5c577465d637f4e698",
+      "name": "base_idle",
+      "source_name": "A_actor_girl_idle_loop",
+      "duration": 2.0,
+      "frames": 121,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_girl_walk_loop.motion",
+      "bytes": 1549620,
+      "sha256": "c2c7b520acbd3758d49f49cafe05b53fac7c9408515230a51c26621cb1866fb8",
+      "name": "walk",
+      "source_name": "A_actor_girl_walk_loop",
+      "duration": 1.0666666666666667,
+      "frames": 65,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_single_play.motion",
+      "bytes": 23744660,
+      "sha256": "9fe908d692753c5832d7d34e234e87d8d697c3bd354f506a4ca37250811d3efc",
+      "name": "play",
+      "source_name": "A_actor_jsspsi_dialog_single_play",
+      "duration": 16.583333333333332,
+      "frames": 996,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_single_tsundere.motion",
+      "bytes": 5125620,
+      "sha256": "63f821aec51dfda5655abbbebf1e7d5e25e1717fca780f208b6021b6a6ebcf48",
+      "name": "tsundere",
+      "source_name": "A_actor_jsspsi_dialog_single_tsundere",
+      "duration": 3.566666666666667,
+      "frames": 215,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_single_wave.motion",
+      "bytes": 5983860,
+      "sha256": "b72e38d4e002cd41876872877cf2d54808ffe41982dc2ff4b11a397b5e6f88f8",
+      "name": "wave",
+      "source_name": "A_actor_jsspsi_dialog_single_wave",
+      "duration": 4.166666666666667,
+      "frames": 251,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_state_idle_loop.motion",
+      "bytes": 2884660,
+      "sha256": "a3aa619eae8c7291e4b980e6200a61aae45069fccbd82ada5c06b646467caf78",
+      "name": "idle",
+      "source_name": "A_actor_jsspsi_dialog_state_idle_loop",
+      "duration": 2.0,
+      "frames": 121,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_virtual_single_idle_nod.motion",
+      "bytes": 1931060,
+      "sha256": "31d220eb3a4bbcd3da48693c5e3d61d6db40e38c4f73660c733afd06ea01800a",
+      "name": "nod",
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_idle_nod",
+      "duration": 1.3333333333333333,
+      "frames": 81,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_virtual_single_idle_shake.motion",
+      "bytes": 3361460,
+      "sha256": "449ee6f49782fc3993074cfa8c769f3d9a3ab27adfcd8f5c27fe9f5661f195af",
+      "name": "shake_head",
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_idle_shake",
+      "duration": 2.3333333333333335,
+      "frames": 141,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_virtual_single_walk_m.motion",
+      "bytes": 5197140,
+      "sha256": "8397dae5a343993d90907e8f31b3ba9210523020c12727b08e7996d8a93f0243",
+      "name": "walk_and_settle",
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_walk_m",
+      "duration": 3.6166666666666667,
+      "frames": 218,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_virtual_state_scratchhead_loop.motion",
+      "bytes": 1931060,
+      "sha256": "a0f3b94834b85b3f1e34b83ab0251d9b62712b74cf74eb0a20ab4910911f4eed",
+      "name": "scratch_head",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_scratchhead_loop",
+      "duration": 1.3333333333333333,
+      "frames": 81,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_interact_camera_01.motion",
+      "bytes": 8367860,
+      "sha256": "8270337be6f0b5fb44e409323846e8187dba1b32544ac0f7871fd352a569ce46",
+      "name": "camera_pose",
+      "source_name": "A_actor_jsspsi_interact_camera_01",
+      "duration": 5.833333333333333,
+      "frames": 351,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_interact_receive_gift.motion",
+      "bytes": 10990260,
+      "sha256": "f583e385b5d820b7bdb824718bb7b2c034953c185d6e87d8f4015e6f8d27c52a",
+      "name": "receive_gift",
+      "source_name": "A_actor_jsspsi_interact_receive_gift",
+      "duration": 7.666666666666667,
+      "frames": 461,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_relax_loop.motion",
+      "bytes": 4315060,
+      "sha256": "331f51bf0ba3de8c4856fbab4d77fcafcf7a987d3a566a3094f2ed9222752edd",
+      "name": "relaxed_idle",
+      "source_name": "A_actor_jsspsi_relax_loop",
+      "duration": 3.0,
+      "frames": 181,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_relax_sp_01.motion",
+      "bytes": 16258900,
+      "sha256": "12c808c0426f233baaac6e31b9291c12d37113083ae17a5b4d29316dae449d1a",
+      "name": "idle_special_1",
+      "source_name": "A_actor_jsspsi_relax_sp_01",
+      "duration": 11.35,
+      "frames": 682,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_relax_sp_02.motion",
+      "bytes": 22791060,
+      "sha256": "e44eaf4f707c36709c6aca576ecdd29df2396f0cc85a09e6756348e871fa7506",
+      "name": "idle_special_2",
+      "source_name": "A_actor_jsspsi_relax_sp_02",
+      "duration": 15.916666666666666,
+      "frames": 956,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_walk_loop_sp_01.motion",
+      "bytes": 11061780,
+      "sha256": "39d3514343c4a1c35cdce14ca563db14fe58241552bd652470dd528fd6687689",
+      "name": "walk_special",
+      "source_name": "A_actor_jsspsi_walk_loop_sp_01",
+      "duration": 7.716666666666667,
+      "frames": 464,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_state_chesthugging1_loop.motion",
+      "bytes": 6961300,
+      "sha256": "5d9d99d35f68f59a266a4774731d5824289001cf74bbc82a60a14a28af531c09",
+      "name": "arms_crossed",
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging1_loop",
+      "duration": 4.85,
+      "frames": 292,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_state_muse_loop.motion",
+      "bytes": 3838260,
+      "sha256": "6e4a14d17379351306cedb243f260567946937ec00a7fe5ce00864179b39979b",
+      "name": "ponder",
+      "source_name": "A_actor_jsspsi_dialog_state_muse_loop",
+      "duration": 2.6666666666666665,
+      "frames": 161,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_state_point_loop.motion",
+      "bytes": 3409140,
+      "sha256": "425c217602fd6587ab9bfa234043d24df430a127475f73547c0eb3ed99d5fdf8",
+      "name": "point",
+      "source_name": "A_actor_jsspsi_dialog_state_point_loop",
+      "duration": 2.3666666666666667,
+      "frames": 143,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_state_surprise_loop.motion",
+      "bytes": 3885940,
+      "sha256": "3e35dce6951a75b537240a655aeb13ad3cb0469ac62b821110d52e5eec6342c1",
+      "name": "surprised_pose",
+      "source_name": "A_actor_jsspsi_dialog_state_surprise_loop",
+      "duration": 2.7,
+      "frames": 163,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_virtual_single_idle_talkhands.motion",
+      "bytes": 6579860,
+      "sha256": "d9e4e5047e432a96846af94eeb3369d21ff470181838e6a6c4f3ab41820cddea",
+      "name": "talk_hands",
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_idle_talkhands",
+      "duration": 4.583333333333333,
+      "frames": 276,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_virtual_state_introduction_loop.motion",
+      "bytes": 8081780,
+      "sha256": "1efb25450f99797e665d26e58f4a05397803c1d7e57082c77f35b49f5b1bfa97",
+      "name": "introduce",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_introduction_loop",
+      "duration": 5.633333333333334,
+      "frames": 339,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_virtual_state_scratchhead_start.motion",
+      "bytes": 2980020,
+      "sha256": "c70740496c310f4250e8bfeb816c015d69895d8e621ae107a78bc7a3a2044dfa",
+      "name": "scratch_head_start",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_scratchhead_start",
+      "duration": 2.066666666666667,
+      "frames": 125,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_dialog_virtual_state_think1_loop.motion",
+      "bytes": 6556020,
+      "sha256": "0d393b7b7ff1223907dd3d626172874f0bc46c2d8c79387d284b432c656f9320",
+      "name": "think",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_think1_loop",
+      "duration": 4.566666666666666,
+      "frames": 275,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_relax_react.motion",
+      "bytes": 16139700,
+      "sha256": "b0818f0582aeeacd1617e8b84688ede2a1f0bb2653045195b7c7a92629d3e4b2",
+      "name": "relax_react",
+      "source_name": "A_actor_jsspsi_relax_react",
+      "duration": 11.266666666666667,
+      "frames": 677,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/A_actor_jsspsi_idle_to_relax.motion",
+      "bytes": 4124340,
+      "sha256": "fc5260285f3452c1895561083409bff4a7c1bdd88f1ef517d6fccada8642eff4",
+      "name": "settle",
+      "source_name": "A_actor_jsspsi_idle_to_relax",
+      "duration": 2.8666666666666667,
+      "frames": 173,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_single_chesthugging3_talk.motion",
+      "bytes": 3552180,
+      "sha256": "f90ab088a4dcfca0fb47ac35c098f714d43e92cb9e2f9c72f4e9b27837c6824b",
+      "name": "story_dialog_single_chesthugging3_talk",
+      "source_name": "A_actor_jsspsi_dialog_single_chesthugging3_talk",
+      "duration": 2.466666666666667,
+      "frames": 149,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_single_idle_turn_l_180.motion",
+      "bytes": 3599860,
+      "sha256": "c33d6764a2e89b32eb5bcc69b5c9ab87ca2307e749d14f365d21c3d82e307269",
+      "name": "story_dialog_single_idle_turn_l_180",
+      "source_name": "A_actor_jsspsi_dialog_single_idle_turn_l_180",
+      "duration": 2.5,
+      "frames": 151,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_single_idle_turn_l_90.motion",
+      "bytes": 3599860,
+      "sha256": "9a3f233094813adfc532a6c1aa71c1a1544fd4e1dcacffc8f78b12f4b9eb29f3",
+      "name": "story_dialog_single_idle_turn_l_90",
+      "source_name": "A_actor_jsspsi_dialog_single_idle_turn_l_90",
+      "duration": 2.5,
+      "frames": 151,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_single_idle_turn_r_180.motion",
+      "bytes": 3599860,
+      "sha256": "aa94c71dc8c589945c3c7397ac9136222d255b8bc226fd4610163ff1f5c65353",
+      "name": "story_dialog_single_idle_turn_r_180",
+      "source_name": "A_actor_jsspsi_dialog_single_idle_turn_r_180",
+      "duration": 2.5,
+      "frames": 151,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_single_idle_turn_r_90.motion",
+      "bytes": 3599860,
+      "sha256": "1b445df4016aa7a6381a7a965fa3e00824c7481e90fedbfb114ebb99a0fd180b",
+      "name": "story_dialog_single_idle_turn_r_90",
+      "source_name": "A_actor_jsspsi_dialog_single_idle_turn_r_90",
+      "duration": 2.5,
+      "frames": 151,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_adjust_loop.motion",
+      "bytes": 9941300,
+      "sha256": "b168808f03bd34adf2934a671e711c3d70ca8438f63d900ba9b189ee6ae983f7",
+      "name": "story_dialog_state_adjust_loop",
+      "source_name": "A_actor_jsspsi_dialog_state_adjust_loop",
+      "duration": 6.933333333333334,
+      "frames": 417,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_angry02_end.motion",
+      "bytes": 3123060,
+      "sha256": "b5935f7c752a9e41e16ff5fd27991c6cbdd9b25df2a739d95ef6efd97c54a0c1",
+      "name": "story_dialog_state_angry02_end",
+      "source_name": "A_actor_jsspsi_dialog_state_angry02_end",
+      "duration": 2.1666666666666665,
+      "frames": 131,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_angry02_loop.motion",
+      "bytes": 3838260,
+      "sha256": "e08bb3973cd66811ddf60ba171154fd4f9977e4d4fb3edf39813a17b1faf771c",
+      "name": "story_dialog_state_angry02_loop",
+      "source_name": "A_actor_jsspsi_dialog_state_angry02_loop",
+      "duration": 2.6666666666666665,
+      "frames": 161,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_angry02_start.motion",
+      "bytes": 2050260,
+      "sha256": "3ba9a8d80bc78b036e463cef84aae84562b2efbc011363955a251182dd140bad",
+      "name": "story_dialog_state_angry02_start",
+      "source_name": "A_actor_jsspsi_dialog_state_angry02_start",
+      "duration": 1.4166666666666667,
+      "frames": 86,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_censure_end.motion",
+      "bytes": 4195860,
+      "sha256": "eb26ce268d023992c187a2203e8f15f44421b72f56d1e9ee30e566c9f8811d1d",
+      "name": "story_dialog_state_censure_end",
+      "source_name": "A_actor_jsspsi_dialog_state_censure_end",
+      "duration": 2.9166666666666665,
+      "frames": 176,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_censure_loop.motion",
+      "bytes": 4791860,
+      "sha256": "2ca96222bf51cb7ae835367eae67d1ed4effc71ed4016ce4ccd08e3b88d8c6e4",
+      "name": "story_dialog_state_censure_loop",
+      "source_name": "A_actor_jsspsi_dialog_state_censure_loop",
+      "duration": 3.3333333333333335,
+      "frames": 201,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_censure_start.motion",
+      "bytes": 19095860,
+      "sha256": "15a81bed95198372db07e245822f0de5fb73c6f8a56e8df23171c0337fd708cc",
+      "name": "story_dialog_state_censure_start",
+      "source_name": "A_actor_jsspsi_dialog_state_censure_start",
+      "duration": 13.333333333333334,
+      "frames": 801,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_chesthugging1_end.motion",
+      "bytes": 3123060,
+      "sha256": "2c3b9ea3c5e607aeeb7c239b5b493f220dc44912619461cb8573edca4e8d9397",
+      "name": "story_dialog_state_chesthugging1_end",
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging1_end",
+      "duration": 2.1666666666666665,
+      "frames": 131,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_chesthugging1_start.motion",
+      "bytes": 2741620,
+      "sha256": "c8511a1287529f4cce68833391ad85942dbac82d2764fdb058d4a5cc26c006e4",
+      "name": "story_dialog_state_chesthugging1_start",
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging1_start",
+      "duration": 1.9,
+      "frames": 115,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_chesthugging3_derived_tail_end.motion",
+      "bytes": 2813140,
+      "sha256": "880c621a1a7bab568ab54ed8f40d8e39218adc604c6c44d050f273550a316b46",
+      "name": "story_dialog_state_chesthugging3_derived_tail_end",
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_derived_tail_end",
+      "duration": 1.95,
+      "frames": 118,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_chesthugging3_derived_tail_loop.motion",
+      "bytes": 6317620,
+      "sha256": "9ebb91ac8d5ad7bae44d13f2ad40f1b18fc4347caca900ab290cb4ef6b14c177",
+      "name": "story_dialog_state_chesthugging3_derived_tail_loop",
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_derived_tail_loop",
+      "duration": 4.4,
+      "frames": 265,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_chesthugging3_derived_tail_start.motion",
+      "bytes": 2050260,
+      "sha256": "d76d882a204d80d617198c0d582eba5fe0b4c2d758bc9380cc171a60502f8b4a",
+      "name": "story_dialog_state_chesthugging3_derived_tail_start",
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_derived_tail_start",
+      "duration": 1.4166666666666667,
+      "frames": 86,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_chesthugging3_end.motion",
+      "bytes": 2813140,
+      "sha256": "d334c51e4b64dd84758be1f9565b2b4f13727e037078f6a0d17932ed7899f496",
+      "name": "story_dialog_state_chesthugging3_end",
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_end",
+      "duration": 1.95,
+      "frames": 118,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_chesthugging3_loop.motion",
+      "bytes": 6317620,
+      "sha256": "09881a2d92ef74a5a7f73c5d53461036d0abe3157b055c5b58975660b5326c7c",
+      "name": "story_dialog_state_chesthugging3_loop",
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_loop",
+      "duration": 4.4,
+      "frames": 265,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_chesthugging3_start.motion",
+      "bytes": 2050260,
+      "sha256": "188f6d5afeba253e38ce05cb03b25662c45abcdd29deb53c1a0a23bc99aae238",
+      "name": "story_dialog_state_chesthugging3_start",
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_start",
+      "duration": 1.4166666666666667,
+      "frames": 86,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_cough_end.motion",
+      "bytes": 2884660,
+      "sha256": "13d85fc06c7df1d7553e69231b5615cea03eefb62e29c0e17c34c16f3b2eb73b",
+      "name": "story_dialog_state_cough_end",
+      "source_name": "A_actor_jsspsi_dialog_state_cough_end",
+      "duration": 2.0,
+      "frames": 121,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_cough_loop.motion",
+      "bytes": 5173300,
+      "sha256": "7b5436da4a049889b13ffb6dae52910d43771a86ca3a1efd2a3cff179903937a",
+      "name": "story_dialog_state_cough_loop",
+      "source_name": "A_actor_jsspsi_dialog_state_cough_loop",
+      "duration": 3.6,
+      "frames": 217,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_cough_start.motion",
+      "bytes": 3170740,
+      "sha256": "3eb30c7dff0fbca2d34b7fdfc9417f116b6814136367a9a2511d54268f154815",
+      "name": "story_dialog_state_cough_start",
+      "source_name": "A_actor_jsspsi_dialog_state_cough_start",
+      "duration": 2.2,
+      "frames": 133,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_dignified_end.motion",
+      "bytes": 3838260,
+      "sha256": "fc316914395a575931db041802009b532116b2258985b5d987ebec0a370e6d55",
+      "name": "story_dialog_state_dignified_end",
+      "source_name": "A_actor_jsspsi_dialog_state_dignified_end",
+      "duration": 2.6666666666666665,
+      "frames": 161,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_dignified_loop.motion",
+      "bytes": 4791860,
+      "sha256": "3ce1c47f72366a5672ead59e9347a5d38d42c456243c65283ebadcdb561aee54",
+      "name": "story_dialog_state_dignified_loop",
+      "source_name": "A_actor_jsspsi_dialog_state_dignified_loop",
+      "duration": 3.3333333333333335,
+      "frames": 201,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_dignified_start.motion",
+      "bytes": 4791860,
+      "sha256": "1066c6455a1bec95b2ed6faf241a86b426b2de3f56b5ceca0a9808b8dbf44d72",
+      "name": "story_dialog_state_dignified_start",
+      "source_name": "A_actor_jsspsi_dialog_state_dignified_start",
+      "duration": 3.3333333333333335,
+      "frames": 201,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_halfraise_end.motion",
+      "bytes": 4076660,
+      "sha256": "18d97505c553015135cf9a2ba64531d022aeb152482c296b2c4cc367c6ee5ae9",
+      "name": "story_dialog_state_halfraise_end",
+      "source_name": "A_actor_jsspsi_dialog_state_halfraise_end",
+      "duration": 2.8333333333333335,
+      "frames": 171,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_halfraise_loop.motion",
+      "bytes": 3480660,
+      "sha256": "3ea819a24cb45738165beee6dbe8b93acf81eb6e12c1f59695ca87ab3780847d",
+      "name": "story_dialog_state_halfraise_loop",
+      "source_name": "A_actor_jsspsi_dialog_state_halfraise_loop",
+      "duration": 2.4166666666666665,
+      "frames": 146,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_halfraise_start.motion",
+      "bytes": 2884660,
+      "sha256": "055e1c5e38e6cad30f900f7ee684c927cee76c96b4b937a3662b374f2062f6af",
+      "name": "story_dialog_state_halfraise_start",
+      "source_name": "A_actor_jsspsi_dialog_state_halfraise_start",
+      "duration": 2.0,
+      "frames": 121,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_muse_end.motion",
+      "bytes": 6556020,
+      "sha256": "dd61bf6f846aa40f555041f19904848621389d044ffd809ad053629d9a71b251",
+      "name": "story_dialog_state_muse_end",
+      "source_name": "A_actor_jsspsi_dialog_state_muse_end",
+      "duration": 4.566666666666666,
+      "frames": 275,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_muse_start.motion",
+      "bytes": 5411700,
+      "sha256": "8d16928484dffee88a38078fe0cb3c78c5148305822645c8e82fcfd96fd700f2",
+      "name": "story_dialog_state_muse_start",
+      "source_name": "A_actor_jsspsi_dialog_state_muse_start",
+      "duration": 3.7666666666666666,
+      "frames": 227,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_point_end.motion",
+      "bytes": 4076660,
+      "sha256": "214381c191141e2fd833460f917d95bd2d10aa7fe5eed17b717cf674adda32da",
+      "name": "story_dialog_state_point_end",
+      "source_name": "A_actor_jsspsi_dialog_state_point_end",
+      "duration": 2.8333333333333335,
+      "frames": 171,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_point_start.motion",
+      "bytes": 4505780,
+      "sha256": "1bee18147a78ae147be19259774dd0b57221e8fd8a1e42d1e7beab8f1983013c",
+      "name": "story_dialog_state_point_start",
+      "source_name": "A_actor_jsspsi_dialog_state_point_start",
+      "duration": 3.1333333333333333,
+      "frames": 189,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_surprise_end.motion",
+      "bytes": 2598580,
+      "sha256": "72e3e81bcc66c9ef93035f91e8ae20dbf132af1cae9222c668d7210cea8a3a3d",
+      "name": "story_dialog_state_surprise_end",
+      "source_name": "A_actor_jsspsi_dialog_state_surprise_end",
+      "duration": 1.8,
+      "frames": 109,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_state_surprise_start.motion",
+      "bytes": 2312500,
+      "sha256": "189f3f8004635f732aa4848e1a10972df2e69e1a0a094a8c4b12bf19b09a4c6d",
+      "name": "story_dialog_state_surprise_start",
+      "source_name": "A_actor_jsspsi_dialog_state_surprise_start",
+      "duration": 1.6,
+      "frames": 97,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_single_idle_talklefthand1.motion",
+      "bytes": 4076660,
+      "sha256": "24cc9f8ae330ee08216988c1eb9fc8c7166fecb645f7116e29aaad528f920697",
+      "name": "story_dialog_virtual_single_idle_talklefthand1",
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_idle_talklefthand1",
+      "duration": 2.8333333333333335,
+      "frames": 171,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_single_idle_talklefthand2.motion",
+      "bytes": 8224820,
+      "sha256": "e2c4580321ac24a39a1b7eb4667f68d27e98d4f0919e7a4e0cb100142409106c",
+      "name": "story_dialog_virtual_single_idle_talklefthand2",
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_idle_talklefthand2",
+      "duration": 5.733333333333333,
+      "frames": 345,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_single_idle_talkrighthand1.motion",
+      "bytes": 4076660,
+      "sha256": "ce5587b29340231dc50b4d6d7bd600c7146707e95a2f5e1079d431a065bd23e1",
+      "name": "story_dialog_virtual_single_idle_talkrighthand1",
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_idle_talkrighthand1",
+      "duration": 2.8333333333333335,
+      "frames": 171,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_single_idle_talkrighthand2.motion",
+      "bytes": 8224820,
+      "sha256": "2fa5c9ead6e9e2298604f6420915c2d91f8ec49cb0406fbee0f228c9efa169f4",
+      "name": "story_dialog_virtual_single_idle_talkrighthand2",
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_idle_talkrighthand2",
+      "duration": 5.733333333333333,
+      "frames": 345,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_akimbo1_end.motion",
+      "bytes": 3003860,
+      "sha256": "3e36512fbc8ded1cb3293d4b7934ae6044c534fca2a95ac94606636e00f04df3",
+      "name": "story_dialog_virtual_state_akimbo1_end",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimbo1_end",
+      "duration": 2.0833333333333335,
+      "frames": 126,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_akimbo1_loop.motion",
+      "bytes": 6222260,
+      "sha256": "efa07b48653765ca567bea4361cbbee28431e54224c8e49966f1a76fe7840a78",
+      "name": "story_dialog_virtual_state_akimbo1_loop",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimbo1_loop",
+      "duration": 4.333333333333333,
+      "frames": 261,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_akimbo1_start.motion",
+      "bytes": 1931060,
+      "sha256": "7009fd7a0ed60b1fb49c37174804973a77a7e06c711e0b4ba0ec6c827f4cc8bd",
+      "name": "story_dialog_virtual_state_akimbo1_start",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimbo1_start",
+      "duration": 1.3333333333333333,
+      "frames": 81,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_akimboleft_end.motion",
+      "bytes": 4529620,
+      "sha256": "52521cc61b32cb5c10e48211a9e777887269ec2620da5fd4ab9e08258242ffab",
+      "name": "story_dialog_virtual_state_akimboleft_end",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboleft_end",
+      "duration": 3.15,
+      "frames": 190,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_akimboleft_loop.motion",
+      "bytes": 6699060,
+      "sha256": "bac18d647b183102e7e727746e3ad09fd0e601f2d9f3c9da8fd4ad94abd54097",
+      "name": "story_dialog_virtual_state_akimboleft_loop",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboleft_loop",
+      "duration": 4.666666666666667,
+      "frames": 281,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_akimboleft_start.motion",
+      "bytes": 2789300,
+      "sha256": "6b4e58f5f2c0da41efaf91fc376438ea2075f48413b35f73f67961de6731ec64",
+      "name": "story_dialog_virtual_state_akimboleft_start",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboleft_start",
+      "duration": 1.9333333333333333,
+      "frames": 117,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_akimboright_end.motion",
+      "bytes": 4338900,
+      "sha256": "4545e10d191e4391c6d301046942be49126abb29e09def0e1183a34ac4c2ec17",
+      "name": "story_dialog_virtual_state_akimboright_end",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboright_end",
+      "duration": 3.0166666666666666,
+      "frames": 182,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_akimboright_loop.motion",
+      "bytes": 7676500,
+      "sha256": "e8613ee0477952fd57f507702be9f640efaa2af853eb19bdd09735b1444dfe4f",
+      "name": "story_dialog_virtual_state_akimboright_loop",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboright_loop",
+      "duration": 5.35,
+      "frames": 322,
+      "fps": 60.0,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_akimboright_start.motion",
+      "bytes": 2002580,
+      "sha256": "ce1422ceee769abc5ddaf37740e70643a5f34209f3c507a32aa10f6671b700a6",
+      "name": "story_dialog_virtual_state_akimboright_start",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboright_start",
+      "duration": 1.3833333333333333,
+      "frames": 84,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_introduction_end.motion",
+      "bytes": 2550900,
+      "sha256": "28ee0296b0ef83569bc168d3edc20a24c5c0eb6331c9d2c12f2b4c0b19fcded1",
+      "name": "story_dialog_virtual_state_introduction_end",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_introduction_end",
+      "duration": 1.7666666666666666,
+      "frames": 107,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_introduction_start.motion",
+      "bytes": 1978740,
+      "sha256": "cbb6bc0389cce53fac1779809c33a511b8f2c0ce9c57c83b286566cff100fe04",
+      "name": "story_dialog_virtual_state_introduction_start",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_introduction_start",
+      "duration": 1.3666666666666667,
+      "frames": 83,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_scratchhead_end.motion",
+      "bytes": 3266100,
+      "sha256": "41a1f51577ab48d1410f2f9cbf81b41b07ae634ba724e31a7fc442906ea64178",
+      "name": "story_dialog_virtual_state_scratchhead_end",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_scratchhead_end",
+      "duration": 2.2666666666666666,
+      "frames": 137,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_think1_end.motion",
+      "bytes": 3170740,
+      "sha256": "578a338642d8e068a56a44615b0456791df616caf5750c82f210c6822c5c6612",
+      "name": "story_dialog_virtual_state_think1_end",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_think1_end",
+      "duration": 2.2,
+      "frames": 133,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/story_dialog_virtual_state_think1_start.motion",
+      "bytes": 2455540,
+      "sha256": "7150b445495ba242f9a115afea956e78453e34b1da353e954bda819b0fa33c0d",
+      "name": "story_dialog_virtual_state_think1_start",
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_think1_start",
+      "duration": 1.7,
+      "frames": 103,
+      "fps": 60.0,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/common_petting_loop.motion",
+      "bytes": 15519860,
+      "sha256": "a0dd5e8dd4d40e882c597f68b6d25f79ef58803ec766fd9f9cd3dce9a45f55db",
+      "name": "common_petting_loop",
+      "source_name": "A_actor_girl_dialog_state_petting_loop",
+      "duration": 10.833333333333334,
+      "frames": 651,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/common_touchhead_end.motion",
+      "bytes": 3838260,
+      "sha256": "0f151e9da9a876dc7da8fa2814a5f05b68d3623a6a1d5a227421fa56eabbee72",
+      "name": "common_touchhead_end",
+      "source_name": "A_actor_girl_dialog_state_touchhead_end",
+      "duration": 2.6666666666666665,
+      "frames": 161,
+      "fps": 60,
+      "loop": false
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/common_touchhead_loop.motion",
+      "bytes": 5745460,
+      "sha256": "a55069e19f7fb8ec6505893070cd7d8c0519ec46fca6422efb2add3c1f7768fa",
+      "name": "common_touchhead_loop",
+      "source_name": "A_actor_girl_dialog_state_touchhead_loop",
+      "duration": 4.0,
+      "frames": 241,
+      "fps": 60,
+      "loop": true
+    },
+    {
+      "path": "SiLLMBridge-20261020/MainData/motions/common_touchhead_start.motion",
+      "bytes": 6699060,
+      "sha256": "199116084cea37e179cd45dc907b9af0d55019612942e42be67a6b27e2e85229",
+      "name": "common_touchhead_start",
+      "source_name": "A_actor_girl_dialog_state_touchhead_start",
+      "duration": 4.666666666666667,
+      "frames": 281,
+      "fps": 60,
+      "loop": false
+    }
+  ],
+  "localInstalledPoses": [
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/base_idle.hpose",
+      "bytes": 196752,
+      "sha256": "7a6854b77e374585bfa5650eff3481b82c233cf73417d12c996c3a92410c8367"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/walk.hpose",
+      "bytes": 105808,
+      "sha256": "6a8edb071f4235ba3fdf727bfbefce0d907e83708cd841400e4e1f59c959b0dd"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/play.hpose",
+      "bytes": 1617752,
+      "sha256": "e848ceb1476b0e42abfe1f766e183dc35a6074004f01b0362dcf0fab2f5de629"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/tsundere.hpose",
+      "bytes": 349408,
+      "sha256": "9f60d0847b41198ae8c16a741c78c7fe5ec7c0c5e899f93ee506daae9198b72c"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/wave.hpose",
+      "bytes": 407872,
+      "sha256": "44269fcd88502ed81471feab7c8f2290beb02be1ef971eea675a4b3277fc4fad"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/idle.hpose",
+      "bytes": 196752,
+      "sha256": "c01c161b9f8d926aa5415d6ef04901359c7c93d10f8118fa922ada424774b679"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/nod.hpose",
+      "bytes": 131792,
+      "sha256": "4a219354dc010e5941a2f8a7326537ec9ae82019b7b5649638560a72dc51cb56"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/shake_head.hpose",
+      "bytes": 229232,
+      "sha256": "7bef39add2609096997a7e2694efa6948391ee9296d5b6246ae3d34c2346340d"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/walk_and_settle.hpose",
+      "bytes": 354280,
+      "sha256": "dc0457369781be2e78cd45690335ee0ca6a926c97d5948cc3843facf0fb83afc"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/scratch_head.hpose",
+      "bytes": 131792,
+      "sha256": "b2a288730a632dea670e1eb7d7026272ef7bd44d9adf20f3a3785d88caa64fb2"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/camera_pose.hpose",
+      "bytes": 570272,
+      "sha256": "1c59209a078c8e82d8cc22dac8fb2d7b4fe7e86d330787c2bebe3cfd310017c6"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/receive_gift.hpose",
+      "bytes": 748912,
+      "sha256": "ef8564fb4e3c6e26f9f7cf9c5a78dc5dd70ffc64ac11084ba9c576955156f1f0"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/relaxed_idle.hpose",
+      "bytes": 294192,
+      "sha256": "e909c959fd0817363e1e568453d516a8e9c792a037e5e49275f853f31a0fc76c"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/idle_special_1.hpose",
+      "bytes": 1107816,
+      "sha256": "3278c2ebe45ca6fb6d20a17d8a5ee674ed4fcccafef08e867dd072b3b6dd533c"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/idle_special_2.hpose",
+      "bytes": 1552792,
+      "sha256": "25d9c5db9bedbfe5aadd62c582e3ec3239be4898460401c9112cf71d3cfcab0b"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/walk_special.hpose",
+      "bytes": 753784,
+      "sha256": "d5834dceeb74622a8b4a6e47997c35db5e46f7a166435a4b2c3c22299a61bbbb"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/arms_crossed.hpose",
+      "bytes": 474456,
+      "sha256": "8ddbf1a21b3aaa221172b38befebd0e7474557fe41ae1ac69fafc94d953006df"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/ponder.hpose",
+      "bytes": 261712,
+      "sha256": "c5a9a1317ed207e6e54ed2f5ca2337b87810f79c7ca4df1e50a6e2ed61cd4ae0"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/point.hpose",
+      "bytes": 232480,
+      "sha256": "409738bc12a116a147adaa0c3ed16f9bd4b57034c9f9a6b2b867fe52b8659d3f"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/surprised_pose.hpose",
+      "bytes": 264960,
+      "sha256": "f5bcfae334a2b7cbc5894a6fe157d687502f4b053d0d1ff3603f63552e435975"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/talk_hands.hpose",
+      "bytes": 448472,
+      "sha256": "7635b624de073357ada669305296c3b174fd73e9bf49963cd1ee91653d9e72bf"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/introduce.hpose",
+      "bytes": 550784,
+      "sha256": "a260784193124ec6251cc67a10b03faf39a5545d2cf65f4e65ca59964ee5703d"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/scratch_head_start.hpose",
+      "bytes": 203248,
+      "sha256": "bd51e151dbdb89e6d74fbb29761e6542329edfc60a1341d112e22fd6eb433528"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/think.hpose",
+      "bytes": 446848,
+      "sha256": "4bde2143e2bb4eb6f78ac562293fafd1d795e2fb8316bce3ff8ddf9994e4f74a"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/relax_react.hpose",
+      "bytes": 1099696,
+      "sha256": "1dcb9710af0847630db26e4e602ab0c26763f413d4abe39d4e44a802b4399b5a"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/settle.hpose",
+      "bytes": 281200,
+      "sha256": "edfc5e1b80cfb7984fafdfbf779094456fff4a94825217dda4dfca151b0a37d7"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_single_chesthugging3_talk.hpose",
+      "bytes": 242224,
+      "sha256": "448fab023350f07504f5c70324846ea431e1587d8172ae49f6afb9300bab309a"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_single_idle_turn_l_180.hpose",
+      "bytes": 245472,
+      "sha256": "df330ec08b85c6553e6b2633b238f420d4cbb58174b05858c92e70145111d3ed"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_single_idle_turn_l_90.hpose",
+      "bytes": 245472,
+      "sha256": "d1d45dd6bc154fb6c014e4e40e094d952a8f3ed9eb222b3965edd07281a38b3c"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_single_idle_turn_r_180.hpose",
+      "bytes": 245472,
+      "sha256": "e4964fb156c21c85598290c4051c548f57064dd849c5b51110d13dffe460341b"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_single_idle_turn_r_90.hpose",
+      "bytes": 245472,
+      "sha256": "e7d13f8cebc49463f1603d37f8f021f8448c44cc8e7dad1105df1375787ba4d0"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_adjust_loop.hpose",
+      "bytes": 677456,
+      "sha256": "8457e60eb2a551effbd71b3d10b0043488e4043ce9fb1b8c17882457a5860acb"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_angry02_end.hpose",
+      "bytes": 212992,
+      "sha256": "4f039be118eaf3be36d5abd3cabd353050bfbd050c8aafd179d4ff736a96ff9e"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_angry02_loop.hpose",
+      "bytes": 261712,
+      "sha256": "63aaa864622d00d06de81ae69ebb8efb1f216cccb25cfa5f91ca4ef99e5f1856"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_angry02_start.hpose",
+      "bytes": 139912,
+      "sha256": "f384ee3f6fa03339677f5bbd0a2a26d004f9e6c7a357c8874cb288f21e10d8be"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_censure_end.hpose",
+      "bytes": 286072,
+      "sha256": "e486da27bb02ada44bd9fd8865dd0f8be3c97aeaf43ad306b9ab72beb66055cd"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_censure_loop.hpose",
+      "bytes": 326672,
+      "sha256": "843786d3b8c4a91cecac96c345df0770bfb2c2fde97dbe2e143a1d1cc8bfc216"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_censure_start.hpose",
+      "bytes": 1301072,
+      "sha256": "c096a7e17cd90d22e0d693c503ce0484696df5ad6eb6e2ef7572da74bb33d173"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_chesthugging1_end.hpose",
+      "bytes": 212992,
+      "sha256": "2f234d05f6b9ab5de6e2c4e3820d54dfa22615da5a82eceeb8e287d75d166ba8"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_chesthugging1_start.hpose",
+      "bytes": 187008,
+      "sha256": "84866d5dfbc2d6699e64bbdbaebffb1f3563b2ef6f1d428a6f7fadf708482d1d"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_chesthugging3_derived_tail_end.hpose",
+      "bytes": 191880,
+      "sha256": "1bdc50d338190995eb4589c5a76c92386795cb15495fb5086f1481ab0397c436"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_chesthugging3_derived_tail_loop.hpose",
+      "bytes": 430608,
+      "sha256": "5a7c9a4ba8def852c68fabe00a0625543af34c70cae65704e61c17b845ef2b2b"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_chesthugging3_derived_tail_start.hpose",
+      "bytes": 139912,
+      "sha256": "5a30b8479726000fb5405cbbb1bfb40a4fdbcc5a6d6a29d9cf75a45905bb96cc"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_chesthugging3_end.hpose",
+      "bytes": 191880,
+      "sha256": "609a1ea87fa6449bf7665690a71c017f16da78c9aea71c8ab5469b1e1a4141e6"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_chesthugging3_loop.hpose",
+      "bytes": 430608,
+      "sha256": "02b5af2c94c9599191f3f31472025159503a252e0b3cbb0400dc5271ec6709b4"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_chesthugging3_start.hpose",
+      "bytes": 139912,
+      "sha256": "c3355d8d7771e2510dfe07aa685f95c085b3bc3518c9c7e54ef81098c6baecb2"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_cough_end.hpose",
+      "bytes": 196752,
+      "sha256": "ebc0ca03092b07ab57a17c58273f6b7b9f654252494112aa38e68dfac05e5f5d"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_cough_loop.hpose",
+      "bytes": 352656,
+      "sha256": "6fc3be78706bea39d06601dba067bdfa63b971f1c801eea631580043ddbc4e68"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_cough_start.hpose",
+      "bytes": 216240,
+      "sha256": "dbc4afbc8c468ce218598ff557853f0ce4db14e02006b9aceaebf871f6de4447"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_dignified_end.hpose",
+      "bytes": 261712,
+      "sha256": "6f2216045484675eec1af27cf59f1bd61f97d963b455996fcbf5e599e896e9a0"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_dignified_loop.hpose",
+      "bytes": 326672,
+      "sha256": "7e9db6587e66b5e22e7bd563a33c97712e35922a76cef21a2eb543b768785b73"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_dignified_start.hpose",
+      "bytes": 326672,
+      "sha256": "7f0d53823636ada9604c4a920281a40d179dce425ca39bbda559489723761e52"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_halfraise_end.hpose",
+      "bytes": 277952,
+      "sha256": "886923c5647ac111985ab487622744f436d99c54fc688967f047a5950b043721"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_halfraise_loop.hpose",
+      "bytes": 237352,
+      "sha256": "697a208389b540873026415d70d3f2df3e735442bff3c0849c13bd0cfd612ff2"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_halfraise_start.hpose",
+      "bytes": 196752,
+      "sha256": "60f89765aee372830cd6350d04831cdd1e005054bc533c660cc2023d6b7e4460"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_muse_end.hpose",
+      "bytes": 446848,
+      "sha256": "e91cd8154bfba99f37a918f15265c2a9b566227e1ee933228c016b4ef12a3836"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_muse_start.hpose",
+      "bytes": 368896,
+      "sha256": "247ec3e6a619879b6b49bc71cc28b00e0faceea75259446933963ffc105c090f"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_point_end.hpose",
+      "bytes": 277952,
+      "sha256": "f14cc990d3d695f9205977084f2914a0e5fd391a0ab6076415d5c6432d50003c"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_point_start.hpose",
+      "bytes": 307184,
+      "sha256": "d9461d565c85c08b80b240abec68a3c856fedafa11922be2a0ba9a565d241b81"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_surprise_end.hpose",
+      "bytes": 177264,
+      "sha256": "fa04370edf829a456cb2919c8462b63887a962a1a780508268197cc209127ef1"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_state_surprise_start.hpose",
+      "bytes": 157776,
+      "sha256": "9d45863959c011a90e34ce3de92ee081153a4ce3c5273d8191e3ab1057ddb3f6"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_single_idle_talklefthand1.hpose",
+      "bytes": 277952,
+      "sha256": "f2939519448cf1e85ac7fd0754b70e1815f951e079a2aec65d279cbf56384c77"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_single_idle_talklefthand2.hpose",
+      "bytes": 560528,
+      "sha256": "0f3018b46f4274618eebda3325fb2eb2adc60c59ce2d15354a652554affee0f0"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_single_idle_talkrighthand1.hpose",
+      "bytes": 277952,
+      "sha256": "761653a24af822f5893cde592253e99f24f752270869c6a808439491f9bd852f"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_single_idle_talkrighthand2.hpose",
+      "bytes": 560528,
+      "sha256": "fcc0ea356fab19b809e7f46e13aad0e1b9e47b36ae49ed6191dd3bac096f62d5"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_akimbo1_end.hpose",
+      "bytes": 204872,
+      "sha256": "c5148ee2a5b45b003a9c3f3ed5ff4db37e9ef69c68aa1bcbaab32b4bbc0f96bc"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_akimbo1_loop.hpose",
+      "bytes": 424112,
+      "sha256": "6480e855a3e92458da53218db58c4caa71b1bfef7f7236686e8e9bed790ed813"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_akimbo1_start.hpose",
+      "bytes": 131792,
+      "sha256": "8d55b7ef92be313c8c9f3fa2dd7da546604e676d8f9cfe2c66247617d59cf551"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_akimboleft_end.hpose",
+      "bytes": 308808,
+      "sha256": "f326aa39099a884bbcb28f56d98265b4dcd996aad732bcd053ecc6a8ea7d629a"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_akimboleft_loop.hpose",
+      "bytes": 456592,
+      "sha256": "a948b350d74070777151fefc6ce354bd9ae8b1d6cd5a7586f9984904ab158cd6"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_akimboleft_start.hpose",
+      "bytes": 190256,
+      "sha256": "c1d960a9c1b6a199e337beb3a588c85c9062c670f6f38040667e076ad10cac84"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_akimboright_end.hpose",
+      "bytes": 295816,
+      "sha256": "f0d9e198af625d53d0ffa047401f5a4ef9df3c31372223f6b4a0b73e19268df7"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_akimboright_loop.hpose",
+      "bytes": 523176,
+      "sha256": "8e93172b30dc20b2e2cd3422939188c10cd7851afa9c7f515591a01437d768ad"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_akimboright_start.hpose",
+      "bytes": 136664,
+      "sha256": "a4b4733a0e678e136ccb1845b48704d0b44a71f589b97536ea28e94de0236583"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_introduction_end.hpose",
+      "bytes": 174016,
+      "sha256": "c14d59eb8d1d32fe3b1be9aaf134ea98ebba6c0e28735421835298d1e0f8a16d"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_introduction_start.hpose",
+      "bytes": 135040,
+      "sha256": "ce9cf8a5a3d39778166a79ce5fce3be0d9ea1357d3f9d0a4e2c6a1eb1c871b35"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_scratchhead_end.hpose",
+      "bytes": 222736,
+      "sha256": "4091ee2c30018672d6279160f6d3f6fbc5a8767a1b54fce7a8a8b8dcc4e2e494"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_think1_end.hpose",
+      "bytes": 216240,
+      "sha256": "1e37d3b72fbb0283448eaeed6bdd0c3c1fd114822e2440b4f37d7b04acdf53fa"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/story_dialog_virtual_state_think1_start.hpose",
+      "bytes": 167520,
+      "sha256": "3952d91fad0874d27af3db1f011e6b01b144b6cbcad71126ac73be43fc105baf"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/common_petting_loop.hpose",
+      "bytes": 1057472,
+      "sha256": "954d01968d4839618552161414ad07391a01479f58f6c088e99222b61c0106c1"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/common_touchhead_end.hpose",
+      "bytes": 261712,
+      "sha256": "bbc8841435aa20c4db7e9e4485a99f6341ab5e231c72c452cc9531aef22b733f"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/common_touchhead_loop.hpose",
+      "bytes": 391632,
+      "sha256": "522eee4c8f0168cad318b67b4efdbe0b95236e8d5f8454c3da5bdb508a0ac744"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/swimsuit/common_touchhead_start.hpose",
+      "bytes": 456592,
+      "sha256": "2270ae14383bc6f9dccf727d4840c1490ea9a849610f135d531c5e0d3a489fb2"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/base_idle.hpose",
+      "bytes": 196752,
+      "sha256": "05c036648887e4e500e52195a107ab0fb5ca4d912847060a69bd84f4a69c4f59"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/walk.hpose",
+      "bytes": 105808,
+      "sha256": "2ed9ff58c7fe2654f13d01499ed8acd9a429b77ead5e5ecc234f58132d77597f"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/play.hpose",
+      "bytes": 1617752,
+      "sha256": "fd05f7410dfcba1dc37b1f880ad0431835dc8b6b2eb82a574bd40be5f534937c"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/tsundere.hpose",
+      "bytes": 349408,
+      "sha256": "f01f4f24ab770c296e34d68c1395ee916adf7e1d7386a16e86a56381adaf6000"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/wave.hpose",
+      "bytes": 407872,
+      "sha256": "9552723440563f837413e0486bf3de3abe6d4a484562335aeb86c47461485123"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/idle.hpose",
+      "bytes": 196752,
+      "sha256": "c3cf6f5a4011b8c1d65ce6c8531f103e335c1ce28abd32893bbad0df7dac7648"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/nod.hpose",
+      "bytes": 131792,
+      "sha256": "ca37bfe115feaae8ea3bc45aa87d944303b4876286920db47074873c6c6c54b3"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/shake_head.hpose",
+      "bytes": 229232,
+      "sha256": "1a07dc7a83fe0e6b55a86db8cc36562bceafbb6dbc660e46e31c14c3a20f86de"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/walk_and_settle.hpose",
+      "bytes": 354280,
+      "sha256": "9190623bd5db525469f15c406297b0195d8f4730c88388df01b00ee4b526ad9d"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/scratch_head.hpose",
+      "bytes": 131792,
+      "sha256": "f7d614671f232797e8c6c6ca14cd05857f24b263e21aa45327c4d115d808c9d2"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/camera_pose.hpose",
+      "bytes": 570272,
+      "sha256": "7d1aa6fb8386b6be473c735e8d8bbd114968832b564752a6f796d8440bb3087e"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/receive_gift.hpose",
+      "bytes": 748912,
+      "sha256": "074b9608a074fc1c5cf32c01f8d30e716da33c7478248348e85c542d49b4008c"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/relaxed_idle.hpose",
+      "bytes": 294192,
+      "sha256": "17c67f64648a6018f0bd059d2ff0aa8aecc34d8232e907b19250056f42ab4364"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/idle_special_1.hpose",
+      "bytes": 1107816,
+      "sha256": "f07bcc621a2ae55795534c7aa8cb459bc0ea934ae82fa4478c0304b7e37fcb52"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/idle_special_2.hpose",
+      "bytes": 1552792,
+      "sha256": "dfcc5a53ff12c46dd38b3b5fee9a4799c9193cc838b7d626d8c10e14d2da195e"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/walk_special.hpose",
+      "bytes": 753784,
+      "sha256": "0abf715935809e5e20df13224807bc427bbcf833177d440d8808774ec42d58a8"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/arms_crossed.hpose",
+      "bytes": 474456,
+      "sha256": "a215767e2a30b8da3d6adf329dbc7d4c9d91265b39ce7a447d3f1582825e3fa5"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/ponder.hpose",
+      "bytes": 261712,
+      "sha256": "a91250201fd3c42a4f909196e6f5aec7488a6a764821064f6e05d16cc106c558"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/point.hpose",
+      "bytes": 232480,
+      "sha256": "6a830ee0a448b1402aa8996a28d47b92303c8a6c6a8a3d458073d7aee26b5501"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/surprised_pose.hpose",
+      "bytes": 264960,
+      "sha256": "d760da8553eafee9e067152c42bd16460ae497850a3f5f062f6653e20603b054"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/talk_hands.hpose",
+      "bytes": 448472,
+      "sha256": "faa124123f756553edcec5f3edafcf222ddf547207e1c26fe1e687ade0df1b17"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/introduce.hpose",
+      "bytes": 550784,
+      "sha256": "88f042d7096ed46fa95092d2e42bf07fc59f304c1c4036d81be06734fbcee71e"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/scratch_head_start.hpose",
+      "bytes": 203248,
+      "sha256": "864746cdcda82e8a7563b0ddf916c5ea7453cc1354a7704e39c23268e21d2341"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/think.hpose",
+      "bytes": 446848,
+      "sha256": "cc36c802b212ffa7d5eb9933d9544bd70ddf2e8a5b9390375c9f73c695203aeb"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/relax_react.hpose",
+      "bytes": 1099696,
+      "sha256": "bd4f5f83d5f79ed62048a8ec4749ff4bd82366277d7429d656504ba195ecd2aa"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/settle.hpose",
+      "bytes": 281200,
+      "sha256": "6eb37eb639cd6636f7366b2b83f5ed8749765808326ee0ac47658a4c1480e158"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_single_chesthugging3_talk.hpose",
+      "bytes": 242224,
+      "sha256": "21ca042eb9ec0fc32307136b87a9b4c903d6aa4701f7b7f100a9f2b213d272e5"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_single_idle_turn_l_180.hpose",
+      "bytes": 245472,
+      "sha256": "7f089c1006279511941e0dcbe98dca076d78fd762e07fcddd02683f45d292de3"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_single_idle_turn_l_90.hpose",
+      "bytes": 245472,
+      "sha256": "33ff36755a8af097e57a90a051189c3af28448cf42d6608aeafd54e933e3406c"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_single_idle_turn_r_180.hpose",
+      "bytes": 245472,
+      "sha256": "05ef92d9cde3b50ba4837fea9b0085cf70e2b642a05e41915866a11f322d6a10"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_single_idle_turn_r_90.hpose",
+      "bytes": 245472,
+      "sha256": "948f5a288fc8b505bcb58c8233c173f36ddd50558d336c91be53f4e4b29ab60e"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_adjust_loop.hpose",
+      "bytes": 677456,
+      "sha256": "c21003f7b40e5f73e7ebd4c5e7ac1afa4244d06fb625454e4f55acb9b7b4f74f"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_angry02_end.hpose",
+      "bytes": 212992,
+      "sha256": "709ad74473333f56cbf5e33b461d97e0487ccda37baca5522f4a73e9cd2b3dcd"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_angry02_loop.hpose",
+      "bytes": 261712,
+      "sha256": "a5abef52985d24278b615d57e194c09447bb094ee3eeb2c6ebd77fc2d6097f49"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_angry02_start.hpose",
+      "bytes": 139912,
+      "sha256": "40e64e816b3c4db512b1a5e1ea4774680fdd65eb295ff5254777d514b778b286"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_censure_end.hpose",
+      "bytes": 286072,
+      "sha256": "f4167595ef75c4b3437c8f3f0094848f72c319e4aa727293fcd6fc5d1f319b5a"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_censure_loop.hpose",
+      "bytes": 326672,
+      "sha256": "068eb13310a57576de14e279865b5975ae8b181ccf13aac0621761213dab15a0"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_censure_start.hpose",
+      "bytes": 1301072,
+      "sha256": "ddf8dcbea234ee99fdc88fea35d5a119f8813eaff888435d34f09104700d4974"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_chesthugging1_end.hpose",
+      "bytes": 212992,
+      "sha256": "edb9c780531bdf942c88f2d0de545eb21749286f5ebe7a78486e6e73b699e410"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_chesthugging1_start.hpose",
+      "bytes": 187008,
+      "sha256": "a4a8c18cdec99dc81c607a96a021c53d016cb0b8e02721b1cd9acc76d18e7891"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_chesthugging3_derived_tail_end.hpose",
+      "bytes": 191880,
+      "sha256": "5cce091373a33d14d59247b3a7c63c7e8331127a86016f563319079ee385245b"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_chesthugging3_derived_tail_loop.hpose",
+      "bytes": 430608,
+      "sha256": "064c930c3e2e9723d45c077fbd6dd0ea3904433716d2e536cf122a0e91f0cf09"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_chesthugging3_derived_tail_start.hpose",
+      "bytes": 139912,
+      "sha256": "d3ee75800a000091f6b6c11fae3ee14ab979520cc40e580696789511bdd0164d"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_chesthugging3_end.hpose",
+      "bytes": 191880,
+      "sha256": "5c2b76acc513356a5029a2844fa58c84e6aac201064b0b86cf849fb856920bbd"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_chesthugging3_loop.hpose",
+      "bytes": 430608,
+      "sha256": "656d4947e24d5a63b83b999ae1d24e1b9242182d4fc84b814fd4d0763e6e53af"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_chesthugging3_start.hpose",
+      "bytes": 139912,
+      "sha256": "f635b2a1af1306919989e8af7df0a69e02efc47a9f5aae2a9b8ea4f8d5813740"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_cough_end.hpose",
+      "bytes": 196752,
+      "sha256": "b67c6fd6f11e594e1f2f3fe88a30802b3aee2d2c25b1ed85dfb881e3ecafc917"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_cough_loop.hpose",
+      "bytes": 352656,
+      "sha256": "cca2793eb5d105ae57b74dcf75e952ccb83fbb8d0ff5ed9e21948ec05de8a0e0"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_cough_start.hpose",
+      "bytes": 216240,
+      "sha256": "a0541a5f0381695ed53323a9d58102d8a98154c83c6edda7fb9953e5891cc936"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_dignified_end.hpose",
+      "bytes": 261712,
+      "sha256": "b7a1755a6d91c21a1224ca9100f71e7da5c7e82344de59779678da0e899c3b73"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_dignified_loop.hpose",
+      "bytes": 326672,
+      "sha256": "ebf694ba09ab55cab49229015cd8d5321a784e63d044b7ce4c0228c70f06d6ce"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_dignified_start.hpose",
+      "bytes": 326672,
+      "sha256": "c23e31b7d2a9439b6e2c5a9492b9947529e9d1f91be80b3628815357c8d8e4e2"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_halfraise_end.hpose",
+      "bytes": 277952,
+      "sha256": "3b9c0cc409c719d531dbe5f712985d2e32990070d45e602923cc23db50a4669a"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_halfraise_loop.hpose",
+      "bytes": 237352,
+      "sha256": "cc7455e808432d88a62bc43ff919ddac8ec7716573700ca0c6bb877b6d49beb8"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_halfraise_start.hpose",
+      "bytes": 196752,
+      "sha256": "97bc80204661e993bf8f03b4c294a8014dd3b5eab231ef73a1763a0f7985f5eb"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_muse_end.hpose",
+      "bytes": 446848,
+      "sha256": "71b7a6a198384fa58480954fd3da5be19033568fe81a463a4d5948611a137d12"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_muse_start.hpose",
+      "bytes": 368896,
+      "sha256": "b5db9fd961053c2d785b67df5f19d19d1ef54206851f10ebbdf91865c696286f"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_point_end.hpose",
+      "bytes": 277952,
+      "sha256": "27eff9327df899d1eeabd35fb603a9a4689ce00964ca4dfaed957bde885e9186"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_point_start.hpose",
+      "bytes": 307184,
+      "sha256": "3a9c0e828d55744bf424e665633233a48b36490326d7d27213cb41128d79ef88"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_surprise_end.hpose",
+      "bytes": 177264,
+      "sha256": "8faa1e0ce6cb54cf0b22131bebe6f630b5f5850593f46736f9b059ee4c666141"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_state_surprise_start.hpose",
+      "bytes": 157776,
+      "sha256": "141755039f511b4220c29985480fc89ac76c4713668c78cfb44dc5414e2e7e3d"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_single_idle_talklefthand1.hpose",
+      "bytes": 277952,
+      "sha256": "e9abb355e7e18e7a760dd0f607c0f00ab32c16135f08ab3097b69e3ac7e014a7"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_single_idle_talklefthand2.hpose",
+      "bytes": 560528,
+      "sha256": "58f85af1d2b61a192cde373e300ad5abbf95ba5a8b08105f508b1ea19db79d8e"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_single_idle_talkrighthand1.hpose",
+      "bytes": 277952,
+      "sha256": "bcfb7e6679a317698e81a9be623e40cb4aabb88f5c26d1a721dbccb2976ae0f0"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_single_idle_talkrighthand2.hpose",
+      "bytes": 560528,
+      "sha256": "f07e52cab0ee8563c388a27b31796929baff3940d73b676f0d00084bdc1ebde0"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_akimbo1_end.hpose",
+      "bytes": 204872,
+      "sha256": "633569d41630801d8e492b059649cd92e633ac6f6de409d90e6bd03edd069fac"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_akimbo1_loop.hpose",
+      "bytes": 424112,
+      "sha256": "4cb5efd953ce5ae7666a64404d1420b2ed82ad35f7b072874e077dce893e358e"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_akimbo1_start.hpose",
+      "bytes": 131792,
+      "sha256": "639529d68182ecd888f0dc861ebd97f3cd5f7e7274b4cbe8ab1e6d5d5efefe51"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_akimboleft_end.hpose",
+      "bytes": 308808,
+      "sha256": "bd683719eb6cde23db4289cdd87fdadce87b6004507ed9c3d968159f796113d2"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_akimboleft_loop.hpose",
+      "bytes": 456592,
+      "sha256": "51104bfa78a203ac938e12897db70a8b949df5079c51b903336bc5f5409d05ef"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_akimboleft_start.hpose",
+      "bytes": 190256,
+      "sha256": "a294c9f2f37a73d7294ecacabaa8afcbd3ee9ee667d46596f3b1c631b1026c34"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_akimboright_end.hpose",
+      "bytes": 295816,
+      "sha256": "ba4a32f87ed00f63154eeea277511f909b835cf365704f53a318b440b70b0d43"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_akimboright_loop.hpose",
+      "bytes": 523176,
+      "sha256": "3f387e980a9d88e981e2fbf61b8ad49cd47d641f2f868b27a1a4b33452add9cc"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_akimboright_start.hpose",
+      "bytes": 136664,
+      "sha256": "29f02622a16d8bd94da89c365b9d52177ef5418a093440dba4e6173619e97263"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_introduction_end.hpose",
+      "bytes": 174016,
+      "sha256": "3094ddd021559b255fbf92c76ae2ca741f11b21a85f5246f6ed6288458142d30"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_introduction_start.hpose",
+      "bytes": 135040,
+      "sha256": "b327fb2e57705fbacc91c4682fc799b6d89d5fdf98c883ec08246cdcdef7c6a0"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_scratchhead_end.hpose",
+      "bytes": 222736,
+      "sha256": "a5ffdfda8040f8b71770048f89c9eb9db312b2822d2708b35f459403f7a45113"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_think1_end.hpose",
+      "bytes": 216240,
+      "sha256": "0f2502ad0eaa2efc3f22d626232764b3d08d77ccc5b7aa49fe8610a4ba7de94d"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/story_dialog_virtual_state_think1_start.hpose",
+      "bytes": 167520,
+      "sha256": "b5bb101a828658c2cc9cad500e275e949df14c2cd4e355c9d16eb5adb8f8cb09"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/common_petting_loop.hpose",
+      "bytes": 1057472,
+      "sha256": "d9423f393dca5581762438b6ca54d2c1b5c4e33d70643f63c1988c6876affebc"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/common_touchhead_end.hpose",
+      "bytes": 261712,
+      "sha256": "5a73e511dd7b995f9413ca393cddced9ef4fcf337e868d8a1b758df0b65e2263"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/common_touchhead_loop.hpose",
+      "bytes": 391632,
+      "sha256": "814162eed6192c2d92d17d6cd067f55e32ce54462ea8ec2a2d354195d3f3c72a"
+    },
+    {
+      "path": "DialogueRenderRepair-20261020/Final-v3/Player/MGFR_Data/StreamingAssets/native-actions/original/common_touchhead_start.hpose",
+      "bytes": 456592,
+      "sha256": "f0dff1500be4cca850a8f841bbe0f1827cda3df9c1468a5b96534c846dc4b516"
+    }
+  ],
+  "footRecovery": {
+    "applied": true,
+    "allOtherChannelsByteIdentical": true,
+    "allClipsNativeFootDelta": true,
+    "sampleFrames": 38064,
+    "maxErrorDegrees": 6.389056940260397e-06,
+    "evidence": [
+      {
+        "path": "DialogueRenderRepair-20261020/Final-v3/IntegrationAudit-20261020/FootSourceCheck-20261021/applied-receipt.json",
+        "bytes": 129775,
+        "sha256": "ecae74136906e7aa6316b5fb02d05087930cf00ea40592c47e627c62525a7359"
+      },
+      {
+        "path": "DialogueRenderRepair-20261020/Final-v3/IntegrationAudit-20261020/FootSourceCheck-20261021/all-native-channels.json",
+        "bytes": 162879,
+        "sha256": "e4431874eb2c130c42eee01a69bdc7704927b4526ae320ca969cc4d51b7a91c5"
+      }
+    ]
+  },
+  "desktopAcceptance": {
+    "result": {
+      "path": "DialogueRenderRepair-20261020/acceptance-Final-v3-20261021-082525-988188/Results/result.json",
+      "bytes": 2602,
+      "sha256": "2e8a4486122b10fbaad223de511a60849c52b46e003036890096bb410dea2d56"
+    },
+    "passed": true,
+    "frames": 2469,
+    "abnormalJumps": 0,
+    "headsetWornAcceptance": false
+  },
+  "excluded": "Local models, textures, animation binaries, voices, Unity installation, built players, real configuration, credentials, personal memory and conversation data."
+}

@@ -1,0 +1,16 @@
+# Model engines. NOT installed by bootstrap.ps1, and NOT verified yet.
+#
+# Install deliberately, one engine at a time, only after the stub path is proven.
+# Keep these in the dialogue-service venv — never in GPT-SoVITS' own runtime,
+# which is read-only (see docs/constraints.md #6).
+
+# SenseVoice INT8 ASR on CPU
+sherpa-onnx>=1.10
+
+# Silero VAD (onnx variant). The torch-based variant is an alternative but pulls
+# in a large dependency tree.
+onnxruntime>=1.18
+
+# Only if the torch-based Silero VAD is preferred.
+# RTX 5070 is a Blackwell part: this must be a cu128-or-newer build.
+# torch>=2.6

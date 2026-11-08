@@ -1,0 +1,56 @@
+[
+  {
+    "target": "H:\\MGFR\\unity-client\\Assets\\MGFR\\Resources\\HandDepth.shader",
+    "exists": true,
+    "sha256": "f4cc0fd5cf4a7f63b24414eb373158f67264b24ebf4781471e34cdf7d4ffd013",
+    "candidate": "H:\\MGFR\\HandAlgorithm-20261019\\Candidate\\Assets\\MGFR\\Resources\\HandDepth.shader"
+  },
+  {
+    "target": "H:\\MGFR\\unity-client\\Assets\\MGFR\\Scripts\\BareHands\\BareHandInteraction.cs",
+    "exists": true,
+    "sha256": "5de95d6c0ac237b13fdba0ff91f2a3c3e6989927e64d94b3ef2d31251047e6d0",
+    "candidate": "H:\\MGFR\\HandAlgorithm-20261019\\Candidate\\Assets\\MGFR\\Scripts\\BareHands\\BareHandInteraction.cs"
+  },
+  {
+    "target": "H:\\MGFR\\unity-client\\Assets\\MGFR\\Scripts\\BareHands\\HandDepthMesh.cs",
+    "exists": true,
+    "sha256": "115ebf12d100d0f45112cf93ad536565dd5d08acd9c21f6cc5103f97c758da02",
+    "candidate": "H:\\MGFR\\HandAlgorithm-20261019\\Candidate\\Assets\\MGFR\\Scripts\\BareHands\\HandDepthMesh.cs"
+  },
+  {
+    "target": "H:\\MGFR\\unity-client\\Assets\\MGFR\\Scripts\\BareHands\\HandGrabCoupling.cs",
+    "exists": true,
+    "sha256": "7a35a0d4091e2c237a263915e1125e172ae5e70df292df6534fdad9e1b447d07",
+    "candidate": "H:\\MGFR\\HandAlgorithm-20261019\\Candidate\\Assets\\MGFR\\Scripts\\BareHands\\HandGrabCoupling.cs"
+  },
+  {
+    "target": "H:\\MGFR\\unity-client\\Assets\\MGFR\\Scripts\\BareHands\\HandJointSource.cs",
+    "exists": true,
+    "sha256": "4a1c91ea748d53dce7a828d7780118a1afcbc4d34e23ecb6d0ac1d012da14092",
+    "candidate": "H:\\MGFR\\HandAlgorithm-20261019\\Candidate\\Assets\\MGFR\\Scripts\\BareHands\\HandJointSource.cs"
+  },
+  {
+    "target": "H:\\MGFR\\unity-client\\Assets\\MGFR\\Scripts\\BareHands\\HandOcclusionEnvelope.cs",
+    "exists": false,
+    "sha256": null,
+    "candidate": "H:\\MGFR\\HandAlgorithm-20261019\\Candidate\\Assets\\MGFR\\Scripts\\BareHands\\HandOcclusionEnvelope.cs"
+  },
+  {
+    "target": "H:\\MGFR\\unity-client\\Assets\\MGFR\\Scripts\\BareHands\\HandPinchState.cs",
+    "exists": false,
+    "sha256": null,
+    "candidate": "H:\\MGFR\\HandAlgorithm-20261019\\Candidate\\Assets\\MGFR\\Scripts\\BareHands\\HandPinchState.cs"
+  },
+  {
+    "target": "H:\\MGFR\\unity-client\\Assets\\MGFR\\Scripts\\BareHands\\HandPoseStabilizer.cs",
+    "exists": true,
+    "sha256": "4d1f4a1b31eed95261d5c8e37577f3f0ea8db88db6ed6fe365fd412dd61952f9",
+    "candidate": "H:\\MGFR\\HandAlgorithm-20261019\\Candidate\\Assets\\MGFR\\Scripts\\BareHands\\HandPoseStabilizer.cs"
+  },
+  {
+    "target": "H:\\MGFR\\unity-client\\Assets\\MGFR\\Scripts\\BareHands\\HandSurfaceQuery.cs",
+    "exists": false,
+    "sha256": null,
+    "candidate": "H:\\MGFR\\HandAlgorithm-20261019\\Candidate\\Assets\\MGFR\\Scripts\\BareHands\\HandSurfaceQuery.cs"
+  }
+]

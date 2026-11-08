@@ -1,0 +1,2048 @@
+{
+  "actions": [
+    {
+      "name": "base_idle",
+      "label": "Base Idle",
+      "file": "A_actor_girl_idle_loop.motion",
+      "duration": 2.0,
+      "tags": [
+        "idle",
+        "base"
+      ],
+      "family": "idle",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0
+    },
+    {
+      "name": "walk",
+      "label": "Walk",
+      "file": "A_actor_girl_walk_loop.motion",
+      "duration": 1.0666666666666667,
+      "tags": [
+        "walk",
+        "locomotion"
+      ],
+      "family": "walk",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0
+    },
+    {
+      "name": "play",
+      "label": "Play",
+      "file": "A_actor_jsspsi_dialog_single_play.motion",
+      "duration": 16.583333333333332,
+      "tags": [
+        "playful",
+        "interaction"
+      ],
+      "family": "play",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "tsundere",
+      "label": "Tsundere",
+      "file": "A_actor_jsspsi_dialog_single_tsundere.motion",
+      "duration": 3.566666666666667,
+      "tags": [
+        "attitude",
+        "dialogue"
+      ],
+      "family": "tsundere",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "wave",
+      "label": "Wave",
+      "file": "A_actor_jsspsi_dialog_single_wave.motion",
+      "duration": 4.166666666666667,
+      "tags": [
+        "greeting",
+        "wave"
+      ],
+      "family": "greeting",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "idle",
+      "label": "Dialogue Idle",
+      "file": "A_actor_jsspsi_dialog_state_idle_loop.motion",
+      "duration": 2.0,
+      "tags": [
+        "idle",
+        "dialogue"
+      ],
+      "family": "idle",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "nod",
+      "label": "Nod",
+      "file": "A_actor_jsspsi_dialog_virtual_single_idle_nod.motion",
+      "duration": 1.3333333333333333,
+      "tags": [
+        "acknowledgement",
+        "head"
+      ],
+      "family": "nod",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "shake_head",
+      "label": "Shake Head",
+      "file": "A_actor_jsspsi_dialog_virtual_single_idle_shake.motion",
+      "duration": 2.3333333333333335,
+      "tags": [
+        "refusal",
+        "head"
+      ],
+      "family": "shake_head",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "walk_and_settle",
+      "label": "Walk and Settle",
+      "file": "A_actor_jsspsi_dialog_virtual_single_walk_m.motion",
+      "duration": 3.6166666666666667,
+      "tags": [
+        "walk",
+        "transition"
+      ],
+      "family": "walk_and_settle",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "scratch_head",
+      "label": "Scratch Head",
+      "file": "A_actor_jsspsi_dialog_virtual_state_scratchhead_loop.motion",
+      "duration": 1.3333333333333333,
+      "tags": [
+        "confused",
+        "scratch_head"
+      ],
+      "family": "confused",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "camera_pose",
+      "label": "Camera Pose",
+      "file": "A_actor_jsspsi_interact_camera_01.motion",
+      "duration": 5.833333333333333,
+      "tags": [
+        "pose",
+        "camera"
+      ],
+      "family": "camera_pose",
+      "callable": true,
+      "native_face_active": true,
+      "native_face_moving_bones": 71
+    },
+    {
+      "name": "receive_gift",
+      "label": "Receive Gift",
+      "file": "A_actor_jsspsi_interact_receive_gift.motion",
+      "duration": 7.666666666666667,
+      "tags": [
+        "interaction",
+        "gift"
+      ],
+      "family": "receive_gift",
+      "callable": true,
+      "native_face_active": true,
+      "native_face_moving_bones": 68
+    },
+    {
+      "name": "relaxed_idle",
+      "label": "Relaxed Idle",
+      "file": "A_actor_jsspsi_relax_loop.motion",
+      "duration": 3.0,
+      "tags": [
+        "idle",
+        "relaxed"
+      ],
+      "family": "idle",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 9
+    },
+    {
+      "name": "idle_special_1",
+      "label": "Idle Special 1",
+      "file": "A_actor_jsspsi_relax_sp_01.motion",
+      "duration": 11.35,
+      "tags": [
+        "idle",
+        "variation"
+      ],
+      "family": "idle",
+      "callable": true,
+      "native_face_active": true,
+      "native_face_moving_bones": 66
+    },
+    {
+      "name": "idle_special_2",
+      "label": "Idle Special 2",
+      "file": "A_actor_jsspsi_relax_sp_02.motion",
+      "duration": 15.916666666666666,
+      "tags": [
+        "idle",
+        "variation"
+      ],
+      "family": "idle",
+      "callable": true,
+      "native_face_active": true,
+      "native_face_moving_bones": 66
+    },
+    {
+      "name": "walk_special",
+      "label": "Special Walk",
+      "file": "A_actor_jsspsi_walk_loop_sp_01.motion",
+      "duration": 7.716666666666667,
+      "tags": [
+        "walk",
+        "variation"
+      ],
+      "family": "walk_special",
+      "callable": true,
+      "native_face_active": true,
+      "native_face_moving_bones": 65
+    },
+    {
+      "name": "arms_crossed",
+      "label": "Arms Crossed",
+      "file": "A_actor_jsspsi_dialog_state_chesthugging1_loop.motion",
+      "duration": 4.85,
+      "tags": [
+        "arms_crossed",
+        "pose"
+      ],
+      "family": "arms_crossed",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "ponder",
+      "label": "Ponder",
+      "file": "A_actor_jsspsi_dialog_state_muse_loop.motion",
+      "duration": 2.6666666666666665,
+      "tags": [
+        "thinking",
+        "ponder"
+      ],
+      "family": "thinking",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "point",
+      "label": "Point",
+      "file": "A_actor_jsspsi_dialog_state_point_loop.motion",
+      "duration": 2.3666666666666667,
+      "tags": [
+        "pointing",
+        "gesture"
+      ],
+      "family": "point",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "surprised_pose",
+      "label": "Surprised Pose",
+      "file": "A_actor_jsspsi_dialog_state_surprise_loop.motion",
+      "duration": 2.7,
+      "tags": [
+        "surprised",
+        "pose"
+      ],
+      "family": "surprised_pose",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "talk_hands",
+      "label": "Talk Hands",
+      "file": "A_actor_jsspsi_dialog_virtual_single_idle_talkhands.motion",
+      "duration": 4.583333333333333,
+      "tags": [
+        "explain",
+        "hands"
+      ],
+      "family": "explain",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "introduce",
+      "label": "Introduce",
+      "file": "A_actor_jsspsi_dialog_virtual_state_introduction_loop.motion",
+      "duration": 5.633333333333334,
+      "tags": [
+        "greeting",
+        "introduce"
+      ],
+      "family": "greeting",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "scratch_head_start",
+      "label": "Scratch Head Start",
+      "file": "A_actor_jsspsi_dialog_virtual_state_scratchhead_start.motion",
+      "duration": 2.066666666666667,
+      "tags": [
+        "confused",
+        "scratch_head",
+        "start"
+      ],
+      "family": "confused",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "think",
+      "label": "Think",
+      "file": "A_actor_jsspsi_dialog_virtual_state_think1_loop.motion",
+      "duration": 4.566666666666666,
+      "tags": [
+        "thinking",
+        "think"
+      ],
+      "family": "thinking",
+      "callable": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 5
+    },
+    {
+      "name": "relax_react",
+      "label": "Relax React",
+      "file": "A_actor_jsspsi_relax_react.motion",
+      "duration": 11.266666666666667,
+      "tags": [
+        "relax",
+        "reaction"
+      ],
+      "family": "relax_react",
+      "callable": true,
+      "native_face_active": true,
+      "native_face_moving_bones": 68
+    },
+    {
+      "name": "settle",
+      "label": "Settle to Relax",
+      "file": "A_actor_jsspsi_idle_to_relax.motion",
+      "duration": 2.8666666666666667,
+      "tags": [
+        "settle",
+        "transition"
+      ],
+      "family": "settle",
+      "callable": true,
+      "native_face_active": true,
+      "native_face_moving_bones": 61
+    },
+    {
+      "name": "story_dialog_single_chesthugging3_talk",
+      "label": "抱臂说话",
+      "file": "story_dialog_single_chesthugging3_talk.motion",
+      "duration": 2.466666666666667,
+      "tags": [
+        "story",
+        "dialogue",
+        "single"
+      ],
+      "family": "story_dialog_single_chesthugging3_talk:single",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_single_chesthugging3_talk",
+      "phase": "single",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_single_idle_turn_l_180",
+      "label": "左转180度",
+      "file": "story_dialog_single_idle_turn_l_180.motion",
+      "duration": 2.5,
+      "tags": [
+        "story",
+        "dialogue",
+        "single"
+      ],
+      "family": "story_dialog_single_idle_turn_l_180:single",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_single_idle_turn_l_180",
+      "phase": "single",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_single_idle_turn_l_90",
+      "label": "左转90度",
+      "file": "story_dialog_single_idle_turn_l_90.motion",
+      "duration": 2.5,
+      "tags": [
+        "story",
+        "dialogue",
+        "single"
+      ],
+      "family": "story_dialog_single_idle_turn_l_90:single",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_single_idle_turn_l_90",
+      "phase": "single",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_single_idle_turn_r_180",
+      "label": "右转180度",
+      "file": "story_dialog_single_idle_turn_r_180.motion",
+      "duration": 2.5,
+      "tags": [
+        "story",
+        "dialogue",
+        "single"
+      ],
+      "family": "story_dialog_single_idle_turn_r_180:single",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_single_idle_turn_r_180",
+      "phase": "single",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_single_idle_turn_r_90",
+      "label": "右转90度",
+      "file": "story_dialog_single_idle_turn_r_90.motion",
+      "duration": 2.5,
+      "tags": [
+        "story",
+        "dialogue",
+        "single"
+      ],
+      "family": "story_dialog_single_idle_turn_r_90:single",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_single_idle_turn_r_90",
+      "phase": "single",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_state_adjust_loop",
+      "label": "站姿调整·循环段",
+      "file": "story_dialog_state_adjust_loop.motion",
+      "duration": 6.933333333333334,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop"
+      ],
+      "family": "story_dialog_state_adjust:loop",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_adjust_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_angry02_end",
+      "label": "不满回应·收尾",
+      "file": "story_dialog_state_angry02_end.motion",
+      "duration": 2.1666666666666665,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_state_angry02:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_angry02_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_angry02_loop",
+      "label": "不满回应·循环段",
+      "file": "story_dialog_state_angry02_loop.motion",
+      "duration": 2.6666666666666665,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop"
+      ],
+      "family": "story_dialog_state_angry02:loop",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_angry02_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_angry02_start",
+      "label": "不满回应·起始",
+      "file": "story_dialog_state_angry02_start.motion",
+      "duration": 1.4166666666666667,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_state_angry02:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_angry02_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_censure_end",
+      "label": "嗔怪/责备·收尾",
+      "file": "story_dialog_state_censure_end.motion",
+      "duration": 2.9166666666666665,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_state_censure:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_censure_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_censure_loop",
+      "label": "嗔怪/责备·循环段",
+      "file": "story_dialog_state_censure_loop.motion",
+      "duration": 3.3333333333333335,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop"
+      ],
+      "family": "story_dialog_state_censure:loop",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_censure_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_censure_start",
+      "label": "嗔怪/责备·起始",
+      "file": "story_dialog_state_censure_start.motion",
+      "duration": 13.333333333333334,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_state_censure:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_censure_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_chesthugging1_end",
+      "label": "抱臂姿态一·收尾",
+      "file": "story_dialog_state_chesthugging1_end.motion",
+      "duration": 2.1666666666666665,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_state_chesthugging1:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging1_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_chesthugging1_start",
+      "label": "抱臂姿态一·起始",
+      "file": "story_dialog_state_chesthugging1_start.motion",
+      "duration": 1.9,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_state_chesthugging1:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging1_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_chesthugging3_derived_tail_end",
+      "label": "抱臂·尾部衍生·收尾",
+      "file": "story_dialog_state_chesthugging3_derived_tail_end.motion",
+      "duration": 1.95,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_state_chesthugging3_derived_tail:end",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_derived_tail_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_state_chesthugging3_derived_tail_loop",
+      "label": "抱臂·尾部衍生·循环段",
+      "file": "story_dialog_state_chesthugging3_derived_tail_loop.motion",
+      "duration": 4.4,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop"
+      ],
+      "family": "story_dialog_state_chesthugging3_derived_tail:loop",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_derived_tail_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_state_chesthugging3_derived_tail_start",
+      "label": "抱臂·尾部衍生·起始",
+      "file": "story_dialog_state_chesthugging3_derived_tail_start.motion",
+      "duration": 1.4166666666666667,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_state_chesthugging3_derived_tail:start",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_derived_tail_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_state_chesthugging3_end",
+      "label": "抱臂姿态三·收尾",
+      "file": "story_dialog_state_chesthugging3_end.motion",
+      "duration": 1.95,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_state_chesthugging3:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_chesthugging3_loop",
+      "label": "抱臂姿态三·循环段",
+      "file": "story_dialog_state_chesthugging3_loop.motion",
+      "duration": 4.4,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop"
+      ],
+      "family": "story_dialog_state_chesthugging3:loop",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_chesthugging3_start",
+      "label": "抱臂姿态三·起始",
+      "file": "story_dialog_state_chesthugging3_start.motion",
+      "duration": 1.4166666666666667,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_state_chesthugging3:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_chesthugging3_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_cough_end",
+      "label": "掩口轻咳·收尾",
+      "file": "story_dialog_state_cough_end.motion",
+      "duration": 2.0,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_state_cough:end",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_cough_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_state_cough_loop",
+      "label": "掩口轻咳·循环段",
+      "file": "story_dialog_state_cough_loop.motion",
+      "duration": 3.6,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop"
+      ],
+      "family": "story_dialog_state_cough:loop",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_cough_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_state_cough_start",
+      "label": "掩口轻咳·起始",
+      "file": "story_dialog_state_cough_start.motion",
+      "duration": 2.2,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_state_cough:start",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_cough_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_state_dignified_end",
+      "label": "郑重姿态·收尾",
+      "file": "story_dialog_state_dignified_end.motion",
+      "duration": 2.6666666666666665,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_state_dignified:end",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_dignified_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_state_dignified_loop",
+      "label": "郑重姿态·循环段",
+      "file": "story_dialog_state_dignified_loop.motion",
+      "duration": 3.3333333333333335,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop"
+      ],
+      "family": "story_dialog_state_dignified:loop",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_dignified_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_state_dignified_start",
+      "label": "郑重姿态·起始",
+      "file": "story_dialog_state_dignified_start.motion",
+      "duration": 3.3333333333333335,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_state_dignified:start",
+      "callable": false,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_dignified_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "story_dialog_state_halfraise_end",
+      "label": "半举手回应·收尾",
+      "file": "story_dialog_state_halfraise_end.motion",
+      "duration": 2.8333333333333335,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_state_halfraise:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_halfraise_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_halfraise_loop",
+      "label": "半举手回应·循环段",
+      "file": "story_dialog_state_halfraise_loop.motion",
+      "duration": 2.4166666666666665,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop"
+      ],
+      "family": "story_dialog_state_halfraise:loop",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_halfraise_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_halfraise_start",
+      "label": "半举手回应·起始",
+      "file": "story_dialog_state_halfraise_start.motion",
+      "duration": 2.0,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_state_halfraise:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_halfraise_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_muse_end",
+      "label": "沉思·收尾",
+      "file": "story_dialog_state_muse_end.motion",
+      "duration": 4.566666666666666,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_state_muse:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_muse_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_muse_start",
+      "label": "沉思·起始",
+      "file": "story_dialog_state_muse_start.motion",
+      "duration": 3.7666666666666666,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_state_muse:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_muse_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_point_end",
+      "label": "指示手势·收尾",
+      "file": "story_dialog_state_point_end.motion",
+      "duration": 2.8333333333333335,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_state_point:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_point_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_point_start",
+      "label": "指示手势·起始",
+      "file": "story_dialog_state_point_start.motion",
+      "duration": 3.1333333333333333,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_state_point:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_point_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_surprise_end",
+      "label": "惊讶回应·收尾",
+      "file": "story_dialog_state_surprise_end.motion",
+      "duration": 1.8,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_state_surprise:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_surprise_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_state_surprise_start",
+      "label": "惊讶回应·起始",
+      "file": "story_dialog_state_surprise_start.motion",
+      "duration": 1.6,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_state_surprise:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_state_surprise_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_single_idle_talklefthand1",
+      "label": "左手轻声说明",
+      "file": "story_dialog_virtual_single_idle_talklefthand1.motion",
+      "duration": 2.8333333333333335,
+      "tags": [
+        "story",
+        "dialogue",
+        "single"
+      ],
+      "family": "story_dialog_virtual_single_idle_talklefthand:single",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_idle_talklefthand1",
+      "phase": "single",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_single_idle_talklefthand2",
+      "label": "左手展开说明",
+      "file": "story_dialog_virtual_single_idle_talklefthand2.motion",
+      "duration": 5.733333333333333,
+      "tags": [
+        "story",
+        "dialogue",
+        "single"
+      ],
+      "family": "story_dialog_virtual_single_idle_talklefthand:single",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_idle_talklefthand2",
+      "phase": "single",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_single_idle_talkrighthand1",
+      "label": "右手轻声说明",
+      "file": "story_dialog_virtual_single_idle_talkrighthand1.motion",
+      "duration": 2.8333333333333335,
+      "tags": [
+        "story",
+        "dialogue",
+        "single"
+      ],
+      "family": "story_dialog_virtual_single_idle_talkrighthand:single",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_idle_talkrighthand1",
+      "phase": "single",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_single_idle_talkrighthand2",
+      "label": "右手展开说明",
+      "file": "story_dialog_virtual_single_idle_talkrighthand2.motion",
+      "duration": 5.733333333333333,
+      "tags": [
+        "story",
+        "dialogue",
+        "single"
+      ],
+      "family": "story_dialog_virtual_single_idle_talkrighthand:single",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_single_idle_talkrighthand2",
+      "phase": "single",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_akimbo1_end",
+      "label": "双手叉腰·收尾",
+      "file": "story_dialog_virtual_state_akimbo1_end.motion",
+      "duration": 2.0833333333333335,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_virtual_state_akimbo1:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimbo1_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_akimbo1_loop",
+      "label": "双手叉腰·循环段",
+      "file": "story_dialog_virtual_state_akimbo1_loop.motion",
+      "duration": 4.333333333333333,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop"
+      ],
+      "family": "story_dialog_virtual_state_akimbo1:loop",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimbo1_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_akimbo1_start",
+      "label": "双手叉腰·起始",
+      "file": "story_dialog_virtual_state_akimbo1_start.motion",
+      "duration": 1.3333333333333333,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_virtual_state_akimbo1:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimbo1_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_akimboleft_end",
+      "label": "左手叉腰·收尾",
+      "file": "story_dialog_virtual_state_akimboleft_end.motion",
+      "duration": 3.15,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_virtual_state_akimboleft:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboleft_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_akimboleft_loop",
+      "label": "左手叉腰·循环段",
+      "file": "story_dialog_virtual_state_akimboleft_loop.motion",
+      "duration": 4.666666666666667,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop"
+      ],
+      "family": "story_dialog_virtual_state_akimboleft:loop",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboleft_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_akimboleft_start",
+      "label": "左手叉腰·起始",
+      "file": "story_dialog_virtual_state_akimboleft_start.motion",
+      "duration": 1.9333333333333333,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_virtual_state_akimboleft:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboleft_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_akimboright_end",
+      "label": "右手叉腰·收尾",
+      "file": "story_dialog_virtual_state_akimboright_end.motion",
+      "duration": 3.0166666666666666,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_virtual_state_akimboright:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboright_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_akimboright_loop",
+      "label": "右手叉腰·循环段",
+      "file": "story_dialog_virtual_state_akimboright_loop.motion",
+      "duration": 5.35,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop"
+      ],
+      "family": "story_dialog_virtual_state_akimboright:loop",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboright_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_akimboright_start",
+      "label": "右手叉腰·起始",
+      "file": "story_dialog_virtual_state_akimboright_start.motion",
+      "duration": 1.3833333333333333,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_virtual_state_akimboright:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_akimboright_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_introduction_end",
+      "label": "介绍自己·收尾",
+      "file": "story_dialog_virtual_state_introduction_end.motion",
+      "duration": 1.7666666666666666,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_virtual_state_introduction:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_introduction_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_introduction_start",
+      "label": "介绍自己·起始",
+      "file": "story_dialog_virtual_state_introduction_start.motion",
+      "duration": 1.3666666666666667,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_virtual_state_introduction:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_introduction_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_scratchhead_end",
+      "label": "挠头·收尾",
+      "file": "story_dialog_virtual_state_scratchhead_end.motion",
+      "duration": 2.2666666666666666,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_virtual_state_scratchhead:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_scratchhead_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_think1_end",
+      "label": "思考·收尾",
+      "file": "story_dialog_virtual_state_think1_end.motion",
+      "duration": 2.2,
+      "tags": [
+        "story",
+        "dialogue",
+        "end"
+      ],
+      "family": "story_dialog_virtual_state_think1:end",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_think1_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "story_dialog_virtual_state_think1_start",
+      "label": "思考·起始",
+      "file": "story_dialog_virtual_state_think1_start.motion",
+      "duration": 1.7,
+      "tags": [
+        "story",
+        "dialogue",
+        "start"
+      ],
+      "family": "story_dialog_virtual_state_think1:start",
+      "callable": true,
+      "semantic_safe": true,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_jsspsi_dialog_virtual_state_think1_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "来自祀剧情/对话；与情绪表情组合使用"
+    },
+    {
+      "name": "common_petting_loop",
+      "label": "主动抚摸候选·循环段",
+      "file": "common_petting_loop.motion",
+      "duration": 10.833333333333334,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop",
+        "interaction_candidate"
+      ],
+      "family": "common_petting:loop",
+      "callable": false,
+      "semantic_safe": false,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_girl_dialog_state_petting_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "保留备用，未放入LLM随机动作池"
+    },
+    {
+      "name": "common_touchhead_end",
+      "label": "触头互动候选·收尾",
+      "file": "common_touchhead_end.motion",
+      "duration": 2.6666666666666665,
+      "tags": [
+        "story",
+        "dialogue",
+        "end",
+        "interaction_candidate"
+      ],
+      "family": "common_touchhead:end",
+      "callable": true,
+      "semantic_safe": false,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_girl_dialog_state_touchhead_end",
+      "phase": "end",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "原名touchhead；方向仅为候选，未连接触摸检测"
+    },
+    {
+      "name": "common_touchhead_loop",
+      "label": "触头互动候选·循环段",
+      "file": "common_touchhead_loop.motion",
+      "duration": 4.0,
+      "tags": [
+        "story",
+        "dialogue",
+        "loop",
+        "interaction_candidate"
+      ],
+      "family": "common_touchhead:loop",
+      "callable": true,
+      "semantic_safe": false,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_girl_dialog_state_touchhead_loop",
+      "phase": "loop",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "原名touchhead；方向仅为候选，未连接触摸检测"
+    },
+    {
+      "name": "common_touchhead_start",
+      "label": "触头互动候选·起始",
+      "file": "common_touchhead_start.motion",
+      "duration": 4.666666666666667,
+      "tags": [
+        "story",
+        "dialogue",
+        "start",
+        "interaction_candidate"
+      ],
+      "family": "common_touchhead:start",
+      "callable": true,
+      "semantic_safe": false,
+      "native_face_active": false,
+      "native_face_moving_bones": 0,
+      "source_name": "A_actor_girl_dialog_state_touchhead_start",
+      "phase": "start",
+      "review": "Current actual Animation sampled at mid-clip; finite target bones; not a full clothing collision guarantee",
+      "usage_note": "原名touchhead；方向仅为候选，未连接触摸检测"
+    }
+  ],
+  "emotions": [
+    {
+      "name": "neutral",
+      "variants": [
+        {
+          "name": "neutral_relaxed",
+          "label": "neutral / relaxed",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "neutral_attentive",
+          "label": "neutral / attentive",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "neutral_calm",
+          "label": "neutral / calm",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "neutral_relax_story",
+          "label": "neutral / relaxed story",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "neutral_easy_content",
+          "label": "neutral / easy content",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "neutral_soft_attention",
+          "label": "neutral / soft attention",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "happy",
+      "variants": [
+        {
+          "name": "happy_soft",
+          "label": "happy / soft",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "happy_smile",
+          "label": "happy / smile",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "happy_bright",
+          "label": "happy / bright",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "happy_headpat_received",
+          "label": "happy / headpat received",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "happy_quiet_pleased",
+          "label": "happy / quiet pleased",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "happy_gentle_smile",
+          "label": "happy / gentle smile",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "sad",
+      "variants": [
+        {
+          "name": "sad_soft",
+          "label": "sad / soft",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "sad_downcast",
+          "label": "sad / downcast",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "sad_held_back",
+          "label": "sad / held_back",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "sad_worried_soft",
+          "label": "sad / gently worried",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "sad_concerned_listening",
+          "label": "sad / concerned",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "sad_small_uncertainty",
+          "label": "sad / small uncertainty",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "angry",
+      "variants": [
+        {
+          "name": "angry_restrained",
+          "label": "angry / restrained",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "angry_firm",
+          "label": "angry / firm",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "angry_pout",
+          "label": "angry / pout",
+          "source_kind": "existing_main_model_blendshape_composition"
+        }
+      ]
+    },
+    {
+      "name": "surprised",
+      "variants": [
+        {
+          "name": "surprised_attentive",
+          "label": "surprised / attentive",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "surprised_wide",
+          "label": "surprised / wide",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "surprised_mild",
+          "label": "surprised / mild",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "surprised_mild_notice",
+          "label": "surprised / mild notice",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "surprised_warmly_curious",
+          "label": "surprised / warmly curious",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "surprised_soft_question",
+          "label": "surprised / soft question",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "shy",
+      "variants": [
+        {
+          "name": "shy_soft",
+          "label": "shy / soft",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "shy_hesitant",
+          "label": "shy / hesitant",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "shy_smile",
+          "label": "shy / smile",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "shy_headpat",
+          "label": "shy / headpat",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "shy_bashful_smile",
+          "label": "shy / bashful smile",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "shy_restrained",
+          "label": "shy / restrained",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "thinking",
+      "variants": [
+        {
+          "name": "thinking_focused",
+          "label": "thinking / focused",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "thinking_uncertain",
+          "label": "thinking / uncertain",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "thinking_considering",
+          "label": "thinking / considering",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "thinking_puzzle_soft",
+          "label": "thinking / puzzled",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "thinking_considering_gently",
+          "label": "thinking / considering",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "thinking_unsure",
+          "label": "thinking / unsure",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "affection",
+      "variants": [
+        {
+          "name": "affection_soft",
+          "label": "affection / soft",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "affection_warm",
+          "label": "affection / warm",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "affection_gentle",
+          "label": "affection / gentle",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "affection_relaxed_nearby",
+          "label": "affection / relaxed nearby",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "affection_warm_response",
+          "label": "affection / warm response",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "affection_trusting",
+          "label": "affection / trusting",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "name": "neutral",
+      "variants": [
+        {
+          "name": "neutral_relaxed",
+          "label": "neutral / relaxed",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "neutral_attentive",
+          "label": "neutral / attentive",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "neutral_calm",
+          "label": "neutral / calm",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "neutral_relax_story",
+          "label": "neutral / relaxed story",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "neutral_easy_content",
+          "label": "neutral / easy content",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "neutral_soft_attention",
+          "label": "neutral / soft attention",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "happy",
+      "variants": [
+        {
+          "name": "happy_soft",
+          "label": "happy / soft",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "happy_smile",
+          "label": "happy / smile",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "happy_bright",
+          "label": "happy / bright",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "happy_headpat_received",
+          "label": "happy / headpat received",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "happy_quiet_pleased",
+          "label": "happy / quiet pleased",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "happy_gentle_smile",
+          "label": "happy / gentle smile",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "sad",
+      "variants": [
+        {
+          "name": "sad_soft",
+          "label": "sad / soft",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "sad_downcast",
+          "label": "sad / downcast",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "sad_held_back",
+          "label": "sad / held_back",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "sad_worried_soft",
+          "label": "sad / gently worried",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "sad_concerned_listening",
+          "label": "sad / concerned",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "sad_small_uncertainty",
+          "label": "sad / small uncertainty",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "angry",
+      "variants": [
+        {
+          "name": "angry_restrained",
+          "label": "angry / restrained",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "angry_firm",
+          "label": "angry / firm",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "angry_pout",
+          "label": "angry / pout",
+          "source_kind": "existing_main_model_blendshape_composition"
+        }
+      ]
+    },
+    {
+      "name": "surprised",
+      "variants": [
+        {
+          "name": "surprised_attentive",
+          "label": "surprised / attentive",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "surprised_wide",
+          "label": "surprised / wide",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "surprised_mild",
+          "label": "surprised / mild",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "surprised_mild_notice",
+          "label": "surprised / mild notice",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "surprised_warmly_curious",
+          "label": "surprised / warmly curious",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "surprised_soft_question",
+          "label": "surprised / soft question",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "shy",
+      "variants": [
+        {
+          "name": "shy_soft",
+          "label": "shy / soft",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "shy_hesitant",
+          "label": "shy / hesitant",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "shy_smile",
+          "label": "shy / smile",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "shy_headpat",
+          "label": "shy / headpat",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "shy_bashful_smile",
+          "label": "shy / bashful smile",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "shy_restrained",
+          "label": "shy / restrained",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "thinking",
+      "variants": [
+        {
+          "name": "thinking_focused",
+          "label": "thinking / focused",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "thinking_uncertain",
+          "label": "thinking / uncertain",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "thinking_considering",
+          "label": "thinking / considering",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "thinking_puzzle_soft",
+          "label": "thinking / puzzled",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "thinking_considering_gently",
+          "label": "thinking / considering",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "thinking_unsure",
+          "label": "thinking / unsure",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    },
+    {
+      "name": "affection",
+      "variants": [
+        {
+          "name": "affection_soft",
+          "label": "affection / soft",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "affection_warm",
+          "label": "affection / warm",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "affection_gentle",
+          "label": "affection / gentle",
+          "source_kind": "existing_main_model_blendshape_composition"
+        },
+        {
+          "name": "affection_relaxed_nearby",
+          "label": "affection / relaxed nearby",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "affection_warm_response",
+          "label": "affection / warm response",
+          "source_kind": "native_preset_compatibility_projection"
+        },
+        {
+          "name": "affection_trusting",
+          "label": "affection / trusting",
+          "source_kind": "native_preset_compatibility_projection"
+        }
+      ]
+    }
+  ],
+  "target": "MGFR main project existing character"
+}

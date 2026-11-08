@@ -1,0 +1,71 @@
+{
+  "status": "prepared; awaiting explicit overwrite approval",
+  "items": [
+    {
+      "group": "launcher",
+      "target": "H:\\MGFR\\启动MGFR.cmd",
+      "candidate": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Proposed\\启动MGFR.cmd",
+      "backup": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Backups\\启动MGFR.cmd",
+      "beforeSha256": "79bf0f33e879ed144107223add4dc16a6f9c475f93663f3e71fe286e94052652",
+      "candidateSha256": "0a91e2f9ee2b8ded533e1e58d391df86e05f29323eb9cb288848104522b9ca34",
+      "reason": "启用已验证的本次修复程序"
+    },
+    {
+      "group": "navigation",
+      "target": "H:\\MGFR\\项目入口说明.md",
+      "candidate": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Proposed\\项目入口说明.md",
+      "backup": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Backups\\项目入口说明.md",
+      "beforeSha256": "68480e91ffbb5c169a215a6a7d04e37e77936e3084851e9f55d560ee594b720d",
+      "candidateSha256": "d66918d77c5a3ff12498b487a7cba1b1952818fcb5d01ad89c7abc26046c04e4",
+      "reason": "明确当前主包、源码、语音和历史目录"
+    },
+    {
+      "group": "test_motion",
+      "target": "H:\\MGFR\\测试入口\\01-动作连续性.cmd",
+      "candidate": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Proposed\\测试入口\\01-动作连续性.cmd",
+      "backup": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Backups\\测试入口\\01-动作连续性.cmd",
+      "beforeSha256": "f33a92bcb3a676c8f43443c57009242e3bb454b071a82dfc891e1c391c6c007b",
+      "candidateSha256": "03e0d040cc349d462014e2c7cb2ecb59aff0e75abc19ce3050cfbda3f3739e26",
+      "reason": "测试当前交付包"
+    },
+    {
+      "group": "test_catalog",
+      "target": "H:\\MGFR\\测试入口\\02-全部可用动作.cmd",
+      "candidate": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Proposed\\测试入口\\02-全部可用动作.cmd",
+      "backup": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Backups\\测试入口\\02-全部可用动作.cmd",
+      "beforeSha256": "c36dcb420b0091b4449890eb1d63c92ab99a6219f903676a34add060b2caf333",
+      "candidateSha256": "585702606d6c01442aa7156175339dfba7aeb0bdcac0d0d5fdc85800d2098efe",
+      "reason": "测试当前交付包"
+    },
+    {
+      "group": "test_dialogue",
+      "target": "H:\\MGFR\\测试入口\\03-语音与LLM动作联调.cmd",
+      "candidate": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Proposed\\测试入口\\03-语音与LLM动作联调.cmd",
+      "backup": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Backups\\测试入口\\03-语音与LLM动作联调.cmd",
+      "beforeSha256": "fa1905ac6cb5fa6553736553b7a69d85c7f310ed15e50e7f36f39a3acc89586a",
+      "candidateSha256": "52d70b4547d6edd18728fee67874c0b7cf0b534cb31a89970fa232afc8491218",
+      "reason": "加入多轮恢复与当前Unity播放验证"
+    },
+    {
+      "group": "test_readme",
+      "target": "H:\\MGFR\\测试入口\\说明.md",
+      "candidate": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Proposed\\测试入口\\说明.md",
+      "backup": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Backups\\测试入口\\说明.md",
+      "beforeSha256": "9160e199b0e82e3d49304965baa0ca741d37f61b8752d236004e53a6d41c3259",
+      "candidateSha256": "29c4203f34f983d81c87e4542c83f3d919a76481a43f88df04aa05957271a3ba",
+      "reason": "补全渲染和等比缩放测试分类"
+    }
+  ],
+  "newItems": [
+    {
+      "target": "H:\\MGFR\\测试入口\\05-透明材质检查.cmd",
+      "candidate": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Proposed\\测试入口\\05-透明材质检查.cmd",
+      "candidateSha256": "2e8a441548df8617811e54139a106b316b48b865f0919c1924a041f6ee0a7b43"
+    },
+    {
+      "target": "H:\\MGFR\\测试入口\\06-衣物缩放检查.cmd",
+      "candidate": "H:\\MGFR\\DialogueRenderRepair-20261020\\Activation\\Proposed\\测试入口\\06-衣物缩放检查.cmd",
+      "candidateSha256": "be0d256ea7b6d6b20351ddabd6750a0f6eeaade82dd3440e567b4a99a6375e81"
+    }
+  ]
+}

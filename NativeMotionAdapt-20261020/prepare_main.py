@@ -1,0 +1,17 @@
+from pathlib import Path
+ROOT=Path(__file__).resolve().parent
+core=(ROOT/'NativeAvatarActions-v4.cs').read_text(encoding='utf-8')
+core=core.replace('public float MotionClock=>', 'public bool ClipPlaying=>anim!=null&&anim.IsPlaying(stateName);public float MotionClock=>')
+core=core.replace('anim.playAutomatically=false;', 'anim.playAutomatically=false;anim.wrapMode=WrapMode.Loop;')
+core=core.replace('anim[state].speed=1;anim.CrossFade', 'anim[state].speed=1;anim[state].wrapMode=name=="idle"?WrapMode.Loop:WrapMode.ClampForever;anim.CrossFade')
+with (ROOT/'NativeAvatarActions-main.cs').open('x',encoding='utf-8') as f:f.write(core)
+cloth=(ROOT/'NativeClothCoordinator-v4.cs').read_text(encoding='utf-8').replace('iteration<4;', 'iteration<8;')
+with (ROOT/'NativeClothCoordinator-main.cs').open('x',encoding='utf-8') as f:f.write(cloth)
+test=(ROOT/'NativeAcceptance-v3.cs').read_text(encoding='utf-8')
+test=test.replace('skinPhasePreserved,physicsContacts;', 'skinPhasePreserved,physicsContacts,idleKeepsLooping;')
+test=test.replace('yield return new WaitForSeconds(5);End();Snapshot("idle");', 'yield return new WaitForSeconds(5);End();report.idleKeepsLooping=driver.ClipPlaying&&current.maxSpeed>.05f;Snapshot("idle");')
+test=test.replace('report.pass=report.finishedAfterAudio', 'report.pass=report.idleKeepsLooping&&report.finishedAfterAudio')
+with (ROOT/'NativeAcceptance-main.cs').open('x',encoding='utf-8') as f:f.write(test)
+source=(ROOT/'build_native.py').read_text(encoding='utf-8').replace("ROOT/'NativeAvatarActions.cs'","ROOT/'NativeAvatarActions-main.cs'").replace("ROOT/'NativeClothCoordinator.cs'","ROOT/'NativeClothCoordinator-main.cs'").replace("ROOT/'NativeAcceptance.cs'","ROOT/'NativeAcceptance-main.cs'")
+source=source.replace("files=[", "files=[ROOT/'NativeCatalogReview.cs',")
+exec(compile(source,str(ROOT/'build_native.py'),'exec'),{'__name__':'__main__','__file__':str(ROOT/'build_native.py')})

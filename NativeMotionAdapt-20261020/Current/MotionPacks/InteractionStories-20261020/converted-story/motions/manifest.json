@@ -1,0 +1,17 @@
+{
+  "format": "ENFMOT1",
+  "notes": [
+    "Original source body and face tracks retained. Current runtime uses separately baked target body curves."
+  ],
+  "clips": [
+    {
+      "name": "story_dialog_single_chesthugging3_talk",
+      "source_name": "A_actor_jsspsi_dialog_single_chesthugging3_talk",
+      "label": "抱臂/撒娇姿态",
+      "file": "story_dialog_single_chesthugging3_talk.motion",
+      "frames": 149,
+      "fps": 60,
+      "duration": 2.466666666666667,
+      "loop": false,
+      "unmatched_transform_paths": [],
+      "moving_face_bones": 

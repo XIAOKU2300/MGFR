@@ -1,0 +1,12 @@
+[
+  {
+    "path": "H:\\MGFR\\unity-client\\Assets\\MGFR\\Scripts\\BareHands\\BareHandInteraction.cs",
+    "sha256": "01505360d344e79a48018d64ce7832bc995818c921bdaa3c6fe0d4307f9039c5",
+    "candidate": "H:\\MGFR\\HandGrabRepair-20261019\\Candidate\\Assets\\MGFR\\Scripts\\BareHands\\BareHandInteraction.cs"
+  },
+  {
+    "path": "H:\\MGFR\\unity-client\\Assets\\MGFR\\Scripts\\BareHands\\HandGrabCoupling.cs",
+    "sha256": "7da2df5dc903d3f1a10254d5ee6298a3c193ba4f2a5fac65a9571c7fb58a47ae",
+    "candidate": "H:\\MGFR\\HandGrabRepair-20261019\\Candidate\\Assets\\MGFR\\Scripts\\BareHands\\HandGrabCoupling.cs"
+  }
+]

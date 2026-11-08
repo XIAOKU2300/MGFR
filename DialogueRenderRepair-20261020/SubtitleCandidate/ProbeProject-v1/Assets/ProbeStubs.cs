@@ -1,0 +1,1 @@
+namespace MGFR.Character { public static class SiCharacterBootstrap { public const string SceneName="Probe"; } } namespace MGFR.Dialogue { public sealed class DialogueClient : UnityEngine.MonoBehaviour { public bool IsSpeaking; public string ServerState="listening", LastAsrText="", ReplyText=""; } }

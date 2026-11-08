@@ -1,0 +1,73 @@
+# MGFR dialogue service — configuration template.
+#
+# Copy to config.toml and fill in. config.toml is gitignored; secrets never go
+# into version control (docs/asset-policy.md).
+
+[server]
+host = "127.0.0.1"
+port = 8765
+
+[audio]
+# Microphone audio arriving from Unity. SenseVoice expects 16 kHz mono.
+mic_sample_rate = 16000
+mic_channels = 1
+# Expected frame cadence; informational, carried in the frame header.
+frame_ms = 20
+
+[engines]
+# One of: stub | real. "stub" needs no models, no GPU and no API key.
+# Switch one at a time and re-run the smoke client after each change.
+vad = "stub"
+asr = "stub"
+llm = "stub"
+tts = "gptsovits"
+
+[vad]
+# Silero speech probability threshold (used when engines.vad = "silero").
+threshold = 0.5
+# RMS level threshold for the energy VAD fallback. Speech is well below 0.1 RMS.
+energy_threshold = 0.015
+min_speech_ms = 200
+min_silence_ms = 500
+max_utterance_ms = 15000
+
+[asr]
+# Local directory containing the sherpa-onnx SenseVoice model. Not committed.
+model_dir = ""
+num_threads = 4
+language = "zh"
+
+[llm]
+# Any OpenAI-compatible streaming endpoint.
+base_url = "https://api.example.com/v1"
+model = "example-model"
+# Leave empty and set the environment variable instead — preferred.
+api_key = ""
+api_key_env = "MGFR_LLM_API_KEY"
+system_prompt_file = "prompts/system.zh.txt"
+max_tokens = 512
+temperature = 0.8
+request_timeout_s = 60
+
+[tts]
+# The existing GPT-SoVITS api_v2 service. Reused read-only: nothing under
+# F:\GPT-SoVITS is modified. Prefer the 小酒狐 configuration already present.
+base_url = "http://127.0.0.1:9880"
+ref_audio = "F:/GPT-SoVITS/GPT-SoVITS-v2pro-20250604-nvidia50/GPT-SoVITS-v2pro-20250604-nvidia50/ref_xiaojiuhu.wav"
+prompt_text = "どうしました私があまり可愛いからびっくりしちゃったんですか"
+prompt_language = "ja"
+text_language = "zh"
+streaming_mode = true
+# Leave empty to accept the server default. The response then carries a real
+# sample rate we can read, which is what constraint #6 asks for. Setting "raw"
+# returns headerless PCM and turns the sample rate into an assumption.
+media_type = ""
+# GPT-SoVITS has no cancellation endpoint, so synthesis is serial.
+max_concurrent = 1
+# Short sentences bound how long a stale request can block.
+max_sentence_chars = 40
+request_timeout_s = 120
+
+[session]
+# v1 keeps the current session only. Nothing is persisted to disk.
+max_history_turns = 20
